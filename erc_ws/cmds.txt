@@ -1,0 +1,14 @@
+List of commands
+
+ros2 launch erc_ros2_navigation spawn_robot.launch.py
+
+ros2 launch erc_ros2_navigation navigation_with_slam.launch.py
+
+ros2 launch explore_lite explore.launch.py
+
+ros2 run erc_ros2_navigation_py controller_node
+
+ros2 run erc_ros2_simple_arm_py integrated_pickup
+
+ros2 run erc_gazebo_sensors_py chase_the_ball
+
