@@ -1,0 +1,23 @@
+[2.603s] Invoking command in '/home/arnavb/erc_ws/src/mogi_trajectory_server': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mogi_trajectory_server build --build-base /home/arnavb/erc_ws/src/build/mogi_trajectory_server/build install --record /home/arnavb/erc_ws/src/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
+[2.931s] running egg_info
+[2.954s] writing ../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/PKG-INFO
+[2.954s] writing dependency_links to ../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/dependency_links.txt
+[2.954s] writing entry points to ../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/entry_points.txt
+[2.954s] writing requirements to ../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/requires.txt
+[2.955s] writing top-level names to ../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/top_level.txt
+[3.000s] reading manifest file '../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[3.001s] adding license file 'LICENSE'
+[3.001s] writing manifest file '../build/mogi_trajectory_server/mogi_trajectory_server.egg-info/SOURCES.txt'
+[3.002s] running build
+[3.002s] running build_py
+[3.002s] running install
+[3.010s] running install_lib
+[3.034s] running install_data
+[3.034s] running install_egg_info
+[3.059s] removing '/home/arnavb/erc_ws/src/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server-1.0.0-py3.12.egg-info' (and everything under it)
+[3.059s] Copying ../build/mogi_trajectory_server/mogi_trajectory_server.egg-info to /home/arnavb/erc_ws/src/install/mogi_trajectory_server/lib/python3.12/site-packages/mogi_trajectory_server-1.0.0-py3.12.egg-info
+[3.060s] running install_scripts
+[3.253s] Installing mogi_trajectory_server script to /home/arnavb/erc_ws/src/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[3.253s] Installing mogi_trajectory_server_topic_based script to /home/arnavb/erc_ws/src/install/mogi_trajectory_server/lib/mogi_trajectory_server
+[3.253s] writing list of installed files to '/home/arnavb/erc_ws/src/build/mogi_trajectory_server/install.log'
+[3.294s] Invoked command in '/home/arnavb/erc_ws/src/mogi_trajectory_server' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mogi_trajectory_server build --build-base /home/arnavb/erc_ws/src/build/mogi_trajectory_server/build install --record /home/arnavb/erc_ws/src/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[2.525s] Invoking command in '/home/arnavb/erc_ws/src/erc_ros2_navigation_py': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/erc_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/erc_ros2_navigation_py build --build-base /home/arnavb/erc_ws/src/build/erc_ros2_navigation_py/build install --record /home/arnavb/erc_ws/src/build/erc_ros2_navigation_py/install.log --single-version-externally-managed install_data
+[2.846s] running egg_info
+[2.869s] writing ../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/PKG-INFO
+[2.870s] writing dependency_links to ../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/dependency_links.txt
+[2.870s] writing entry points to ../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/entry_points.txt
+[2.870s] writing requirements to ../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/requires.txt
+[2.870s] writing top-level names to ../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/top_level.txt
+[2.915s] reading manifest file '../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/SOURCES.txt'
+[2.916s] writing manifest file '../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/SOURCES.txt'
+[2.916s] running build
+[2.916s] running build_py
+[2.916s] running install
+[2.923s] running install_lib
+[2.947s] running install_data
+[2.947s] running install_egg_info
+[2.971s] removing '/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py-1.0.0-py3.12.egg-info' (and everything under it)
+[2.971s] Copying ../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info to /home/arnavb/erc_ws/src/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py-1.0.0-py3.12.egg-info
+[2.972s] running install_scripts
+[3.128s] Installing controller_node script to /home/arnavb/erc_ws/src/install/erc_ros2_navigation_py/lib/erc_ros2_navigation_py
+[3.128s] Installing follow_waypoints script to /home/arnavb/erc_ws/src/install/erc_ros2_navigation_py/lib/erc_ros2_navigation_py
+[3.129s] Installing send_initialpose script to /home/arnavb/erc_ws/src/install/erc_ros2_navigation_py/lib/erc_ros2_navigation_py
+[3.129s] Installing slam_toolbox_load_map script to /home/arnavb/erc_ws/src/install/erc_ros2_navigation_py/lib/erc_ros2_navigation_py
+[3.129s] writing list of installed files to '/home/arnavb/erc_ws/src/build/erc_ros2_navigation_py/install.log'
+[3.179s] Invoked command in '/home/arnavb/erc_ws/src/erc_ros2_navigation_py' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/erc_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/erc_ros2_navigation_py build --build-base /home/arnavb/erc_ws/src/build/erc_ros2_navigation_py/build install --record /home/arnavb/erc_ws/src/build/erc_ros2_navigation_py/install.log --single-version-externally-managed install_data

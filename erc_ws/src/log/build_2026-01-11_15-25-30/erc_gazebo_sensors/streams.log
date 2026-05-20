@@ -1,0 +1,41 @@
+[0.388s] Invoking command in '/home/arnavb/erc_ws/src/build/erc_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/src/build/erc_gazebo_sensors -- -j20 -l20
+[1.847s] Invoked command in '/home/arnavb/erc_ws/src/build/erc_gazebo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/src/build/erc_gazebo_sensors -- -j20 -l20
+[1.849s] Invoking command in '/home/arnavb/erc_ws/src/build/erc_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/src/build/erc_gazebo_sensors
+[1.869s] -- Install configuration: ""
+[1.869s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/launch
+[1.871s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/launch/check_urdf.launch.py
+[1.871s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/launch/world.launch.py
+[1.871s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/launch/spawn_robot.launch.py
+[1.872s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/worlds
+[1.872s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/worlds/world.sdf
+[1.872s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/worlds/empty.sdf
+[1.872s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/worlds/home.sdf
+[1.872s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/rviz
+[1.872s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/rviz/gps.rviz
+[1.872s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/rviz/urdf.rviz
+[1.872s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/rviz/rviz.rviz
+[1.872s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/urdf
+[1.872s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/urdf/erc_bot.gazebo
+[1.872s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/urdf/materials.xacro
+[1.872s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/urdf/erc_bot.urdf
+[1.873s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/meshes
+[1.873s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/meshes/IronManWheelLeftFront.dae
+[1.873s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/meshes/lidar.dae
+[1.873s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/meshes/IronManWheelRightFront.dae
+[1.873s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/meshes/IronMan_ROS_Body.dae
+[1.873s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/ament_index/resource_index/package_run_dependencies/erc_gazebo_sensors
+[1.873s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/ament_index/resource_index/parent_prefix_path/erc_gazebo_sensors
+[1.873s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/environment/ament_prefix_path.sh
+[1.873s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/environment/ament_prefix_path.dsv
+[1.873s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/environment/path.sh
+[1.873s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/environment/path.dsv
+[1.874s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/local_setup.bash
+[1.874s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/local_setup.sh
+[1.874s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/local_setup.zsh
+[1.874s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/local_setup.dsv
+[1.874s] -- Installing: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/package.dsv
+[1.874s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/ament_index/resource_index/packages/erc_gazebo_sensors
+[1.874s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/cmake/erc_gazebo_sensorsConfig.cmake
+[1.874s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/cmake/erc_gazebo_sensorsConfig-version.cmake
+[1.874s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_gazebo_sensors/share/erc_gazebo_sensors/package.xml
+[1.896s] Invoked command in '/home/arnavb/erc_ws/src/build/erc_gazebo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/src/build/erc_gazebo_sensors

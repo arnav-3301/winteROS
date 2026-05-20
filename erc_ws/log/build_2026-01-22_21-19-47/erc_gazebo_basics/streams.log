@@ -1,0 +1,43 @@
+[1.351s] Invoking command in '/home/arnavb/erc_ws/build/erc_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/erc_gazebo_basics -- -j20 -l20
+[6.044s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.048s] -- Configuring done (1.5s)
+[6.048s] -- Generating done (0.0s)
+[6.048s] -- Build files have been written to: /home/arnavb/erc_ws/build/erc_gazebo_basics
+[6.091s] Invoked command in '/home/arnavb/erc_ws/build/erc_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/erc_gazebo_basics -- -j20 -l20
+[6.116s] Invoking command in '/home/arnavb/erc_ws/build/erc_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/erc_gazebo_basics
+[6.143s] -- Install configuration: ""
+[6.143s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/launch
+[6.144s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/launch/world.launch.py
+[6.144s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/worlds
+[6.144s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/worlds/world.sdf
+[6.146s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/worlds/empty.sdf
+[6.148s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/rviz
+[6.148s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/rviz/urdf.rviz
+[6.148s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/rviz/rviz.rviz
+[6.148s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/urdf
+[6.148s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/urdf/materials.xacro
+[6.148s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes
+[6.148s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/IronManWheelLeftFront.dae
+[6.158s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/IronManWheelRightFront.dae
+[6.166s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/wheel.SLDPRT
+[6.168s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/wheel.blend
+[6.176s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/IronMan_ROS_Body.dae
+[6.176s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/wheel.dae
+[6.177s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/wheel.STEP
+[6.179s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/wheel.STL
+[6.183s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/ament_index/resource_index/package_run_dependencies/erc_gazebo_basics
+[6.185s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/ament_index/resource_index/parent_prefix_path/erc_gazebo_basics
+[6.185s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/environment/ament_prefix_path.sh
+[6.186s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/environment/ament_prefix_path.dsv
+[6.186s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/environment/path.sh
+[6.186s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/environment/path.dsv
+[6.186s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/local_setup.bash
+[6.186s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/local_setup.sh
+[6.186s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/local_setup.zsh
+[6.186s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/local_setup.dsv
+[6.186s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.dsv
+[6.187s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/ament_index/resource_index/packages/erc_gazebo_basics
+[6.187s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/cmake/erc_gazebo_basicsConfig.cmake
+[6.187s] -- Up-to-date: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/cmake/erc_gazebo_basicsConfig-version.cmake
+[6.187s] -- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.xml
+[6.195s] Invoked command in '/home/arnavb/erc_ws/build/erc_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/erc_gazebo_basics

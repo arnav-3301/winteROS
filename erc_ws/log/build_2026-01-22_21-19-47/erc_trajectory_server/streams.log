@@ -1,0 +1,42 @@
+[7.851s] Invoking command in '/home/arnavb/erc_ws/src/week3/erc_trajectory_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_trajectory_server build --build-base /home/arnavb/erc_ws/build/erc_trajectory_server/build install --record /home/arnavb/erc_ws/build/erc_trajectory_server/install.log --single-version-externally-managed install_data
+[8.632s] running egg_info
+[8.632s] creating ../../../build/erc_trajectory_server/erc_trajectory_server.egg-info
+[8.696s] writing ../../../build/erc_trajectory_server/erc_trajectory_server.egg-info/PKG-INFO
+[8.698s] writing dependency_links to ../../../build/erc_trajectory_server/erc_trajectory_server.egg-info/dependency_links.txt
+[8.698s] writing entry points to ../../../build/erc_trajectory_server/erc_trajectory_server.egg-info/entry_points.txt
+[8.698s] writing requirements to ../../../build/erc_trajectory_server/erc_trajectory_server.egg-info/requires.txt
+[8.699s] writing top-level names to ../../../build/erc_trajectory_server/erc_trajectory_server.egg-info/top_level.txt
+[8.699s] writing manifest file '../../../build/erc_trajectory_server/erc_trajectory_server.egg-info/SOURCES.txt'
+[8.828s] reading manifest file '../../../build/erc_trajectory_server/erc_trajectory_server.egg-info/SOURCES.txt'
+[8.828s] adding license file 'LICENSE'
+[8.829s] writing manifest file '../../../build/erc_trajectory_server/erc_trajectory_server.egg-info/SOURCES.txt'
+[8.830s] running build
+[8.830s] running build_py
+[8.830s] creating /home/arnavb/erc_ws/build/erc_trajectory_server/build
+[8.830s] creating /home/arnavb/erc_ws/build/erc_trajectory_server/build/lib
+[8.830s] creating /home/arnavb/erc_ws/build/erc_trajectory_server/build/lib/erc_trajectory_server
+[8.830s] copying erc_trajectory_server/__init__.py -> /home/arnavb/erc_ws/build/erc_trajectory_server/build/lib/erc_trajectory_server
+[8.831s] copying erc_trajectory_server/trajectory_topic_based.py -> /home/arnavb/erc_ws/build/erc_trajectory_server/build/lib/erc_trajectory_server
+[8.832s] copying erc_trajectory_server/trajectory.py -> /home/arnavb/erc_ws/build/erc_trajectory_server/build/lib/erc_trajectory_server
+[8.833s] running install
+[8.845s] running install_lib
+[8.907s] creating /home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages/erc_trajectory_server
+[8.907s] copying /home/arnavb/erc_ws/build/erc_trajectory_server/build/lib/erc_trajectory_server/__init__.py -> /home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages/erc_trajectory_server
+[8.908s] copying /home/arnavb/erc_ws/build/erc_trajectory_server/build/lib/erc_trajectory_server/trajectory_topic_based.py -> /home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages/erc_trajectory_server
+[8.908s] copying /home/arnavb/erc_ws/build/erc_trajectory_server/build/lib/erc_trajectory_server/trajectory.py -> /home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages/erc_trajectory_server
+[8.908s] byte-compiling /home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages/erc_trajectory_server/__init__.py to __init__.cpython-312.pyc
+[8.909s] byte-compiling /home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages/erc_trajectory_server/trajectory_topic_based.py to trajectory_topic_based.cpython-312.pyc
+[8.911s] byte-compiling /home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages/erc_trajectory_server/trajectory.py to trajectory.cpython-312.pyc
+[8.913s] running install_data
+[8.914s] creating /home/arnavb/erc_ws/install/erc_trajectory_server/share/ament_index
+[8.914s] creating /home/arnavb/erc_ws/install/erc_trajectory_server/share/ament_index/resource_index
+[8.914s] creating /home/arnavb/erc_ws/install/erc_trajectory_server/share/ament_index/resource_index/packages
+[8.914s] copying resource/erc_trajectory_server -> /home/arnavb/erc_ws/install/erc_trajectory_server/share/ament_index/resource_index/packages
+[8.914s] copying package.xml -> /home/arnavb/erc_ws/install/erc_trajectory_server/share/erc_trajectory_server
+[8.914s] running install_egg_info
+[8.961s] Copying ../../../build/erc_trajectory_server/erc_trajectory_server.egg-info to /home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages/erc_trajectory_server-1.0.0-py3.12.egg-info
+[8.965s] running install_scripts
+[9.571s] Installing erc_trajectory_server script to /home/arnavb/erc_ws/install/erc_trajectory_server/lib/erc_trajectory_server
+[9.572s] Installing erc_trajectory_server_topic_based script to /home/arnavb/erc_ws/install/erc_trajectory_server/lib/erc_trajectory_server
+[9.573s] writing list of installed files to '/home/arnavb/erc_ws/build/erc_trajectory_server/install.log'
+[9.709s] Invoked command in '/home/arnavb/erc_ws/src/week3/erc_trajectory_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_trajectory_server build --build-base /home/arnavb/erc_ws/build/erc_trajectory_server/build install --record /home/arnavb/erc_ws/build/erc_trajectory_server/install.log --single-version-externally-managed install_data

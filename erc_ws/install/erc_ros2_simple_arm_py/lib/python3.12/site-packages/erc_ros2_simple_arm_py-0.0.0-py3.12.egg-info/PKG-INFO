@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: erc-ros2-simple-arm-py
+Version: 0.0.0
+Summary: Python nodes for simulation of a robotic arm with Gazebo Harmonic and ROS Jazzy for ERC MOGI ROS2 course
+Maintainer: Aswath Sahoo
+Maintainer-email: aswath_sahoo@yahoo.com
+License: Apache License 2.0

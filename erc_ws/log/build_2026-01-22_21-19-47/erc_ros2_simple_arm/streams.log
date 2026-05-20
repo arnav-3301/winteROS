@@ -1,0 +1,83 @@
+[3.113s] Invoking command in '/home/arnavb/erc_ws/build/erc_ros2_simple_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm -DCMAKE_INSTALL_PREFIX=/home/arnavb/erc_ws/install/erc_ros2_simple_arm
+[5.953s] -- The C compiler identification is GNU 13.3.0
+[5.953s] -- The CXX compiler identification is GNU 13.3.0
+[5.954s] -- Detecting C compiler ABI info
+[5.954s] -- Detecting C compiler ABI info - done
+[5.954s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.957s] -- Detecting C compile features
+[5.960s] -- Detecting C compile features - done
+[5.961s] -- Detecting CXX compiler ABI info
+[5.961s] -- Detecting CXX compiler ABI info - done
+[5.963s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.963s] -- Detecting CXX compile features
+[5.964s] -- Detecting CXX compile features - done
+[5.965s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.965s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.965s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.019s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.019s] -- Configured 'flake8' exclude dirs and/or files: 
+[6.022s] -- Added test 'lint_cmake' to check CMake code style
+[6.024s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.032s] -- Added test 'xmllint' to check XML markup files
+[6.033s] -- Configuring done (2.9s)
+[6.038s] -- Generating done (0.0s)
+[6.042s] -- Build files have been written to: /home/arnavb/erc_ws/build/erc_ros2_simple_arm
+[6.066s] Invoked command in '/home/arnavb/erc_ws/build/erc_ros2_simple_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm -DCMAKE_INSTALL_PREFIX=/home/arnavb/erc_ws/install/erc_ros2_simple_arm
+[6.066s] Invoking command in '/home/arnavb/erc_ws/build/erc_ros2_simple_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/erc_ros2_simple_arm -- -j20 -l20
+[6.187s] Invoked command in '/home/arnavb/erc_ws/build/erc_ros2_simple_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/erc_ros2_simple_arm -- -j20 -l20
+[6.193s] Invoking command in '/home/arnavb/erc_ws/build/erc_ros2_simple_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/erc_ros2_simple_arm
+[6.212s] -- Install configuration: ""
+[6.214s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/config
+[6.215s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/config/controller_position.yaml
+[6.216s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/config/gz_bridge.yaml
+[6.218s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/launch
+[6.220s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/launch/check_urdf.launch.py
+[6.221s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/launch/world.launch.py
+[6.221s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/launch/spawn_robot.launch.py
+[6.221s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/worlds
+[6.221s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/worlds/world.sdf
+[6.221s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/worlds/empty.sdf
+[6.221s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/rviz
+[6.222s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/rviz/urdf.rviz
+[6.222s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/rviz/rviz.rviz
+[6.222s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/urdf
+[6.223s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/urdf/mogi_arm.gazebo
+[6.223s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/urdf/materials.xacro
+[6.223s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/urdf/mogi_arm.xacro
+[6.223s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes
+[6.223s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/upper_arm.STEP
+[6.223s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/forearm.SLDPRT
+[6.223s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/shoulder.STEP
+[6.225s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/upper_arm.dae
+[6.225s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/forearm.STEP
+[6.226s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/shoulder.dae
+[6.226s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/shoulder.SLDPRT
+[6.226s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/forearm.blend
+[6.228s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/upper_arm.STL
+[6.229s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/forearm.dae
+[6.230s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/shoulder.blend
+[6.231s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/wrist.dae
+[6.232s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/shoulder.STL
+[6.236s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/wrist.STL
+[6.236s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/upper_arm.SLDPRT
+[6.236s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/upper_arm.blend
+[6.240s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/wrist.STEP
+[6.242s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/wrist.blend
+[6.244s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/forearm.STL
+[6.247s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/meshes/wrist.SLDPRT
+[6.248s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/ament_index/resource_index/package_run_dependencies/erc_ros2_simple_arm
+[6.248s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/ament_index/resource_index/parent_prefix_path/erc_ros2_simple_arm
+[6.249s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/environment/ament_prefix_path.sh
+[6.249s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/environment/ament_prefix_path.dsv
+[6.249s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/environment/path.sh
+[6.249s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/environment/path.dsv
+[6.249s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/local_setup.bash
+[6.250s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/local_setup.sh
+[6.250s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/local_setup.zsh
+[6.250s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/local_setup.dsv
+[6.250s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/package.dsv
+[6.251s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/ament_index/resource_index/packages/erc_ros2_simple_arm
+[6.251s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/cmake/erc_ros2_simple_armConfig.cmake
+[6.251s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/cmake/erc_ros2_simple_armConfig-version.cmake
+[6.251s] -- Installing: /home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/package.xml
+[6.297s] Invoked command in '/home/arnavb/erc_ws/build/erc_ros2_simple_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/erc_ros2_simple_arm

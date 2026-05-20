@@ -1,0 +1,4 @@
+[5.478s] Invoking command in '/home/arnavb/erc_ws/src/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/src/build/explore_lite -- -j20 -l20
+[5.574s] [0mCMake Error: The source directory "/home/arnavb/erc_ws/src/explore" does not exist.
+[5.574s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[5.579s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1

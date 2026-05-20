@@ -1,0 +1,3 @@
+[console_scripts]
+inverse_kinematics = erc_ros2_simple_arm_py.inverse_kinematics:main
+send_joint_angles = erc_ros2_simple_arm_py.send_joint_angles:main

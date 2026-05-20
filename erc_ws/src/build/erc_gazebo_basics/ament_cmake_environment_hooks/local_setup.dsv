@@ -1,0 +1,2 @@
+source;share/erc_gazebo_basics/environment/ament_prefix_path.sh
+source;share/erc_gazebo_basics/environment/path.sh

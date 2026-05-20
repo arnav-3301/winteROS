@@ -1,0 +1,21 @@
+[2.596s] Invoking command in '/home/arnavb/erc_ws/src/assgn': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/assgn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/assgn/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/assgn build --build-base /home/arnavb/erc_ws/src/build/assgn/build install --record /home/arnavb/erc_ws/src/build/assgn/install.log --single-version-externally-managed install_data
+[2.921s] running egg_info
+[2.944s] writing ../build/assgn/assgn.egg-info/PKG-INFO
+[2.945s] writing dependency_links to ../build/assgn/assgn.egg-info/dependency_links.txt
+[2.945s] writing entry points to ../build/assgn/assgn.egg-info/entry_points.txt
+[2.945s] writing requirements to ../build/assgn/assgn.egg-info/requires.txt
+[2.945s] writing top-level names to ../build/assgn/assgn.egg-info/top_level.txt
+[2.991s] reading manifest file '../build/assgn/assgn.egg-info/SOURCES.txt'
+[2.992s] writing manifest file '../build/assgn/assgn.egg-info/SOURCES.txt'
+[2.992s] running build
+[2.992s] running build_py
+[2.993s] running install
+[3.000s] running install_lib
+[3.023s] running install_data
+[3.024s] running install_egg_info
+[3.048s] removing '/home/arnavb/erc_ws/src/install/assgn/lib/python3.12/site-packages/assgn-0.0.0-py3.12.egg-info' (and everything under it)
+[3.048s] Copying ../build/assgn/assgn.egg-info to /home/arnavb/erc_ws/src/install/assgn/lib/python3.12/site-packages/assgn-0.0.0-py3.12.egg-info
+[3.049s] running install_scripts
+[3.206s] Installing node script to /home/arnavb/erc_ws/src/install/assgn/lib/assgn
+[3.206s] writing list of installed files to '/home/arnavb/erc_ws/src/build/assgn/install.log'
+[3.262s] Invoked command in '/home/arnavb/erc_ws/src/assgn' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/assgn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/assgn/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/assgn build --build-base /home/arnavb/erc_ws/src/build/assgn/build install --record /home/arnavb/erc_ws/src/build/assgn/install.log --single-version-externally-managed install_data

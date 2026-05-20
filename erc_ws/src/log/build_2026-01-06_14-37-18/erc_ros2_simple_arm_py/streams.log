@@ -1,0 +1,35 @@
+[1.407s] Invoking command in '/home/arnavb/erc_ws/src/erc_ros2_simple_arm_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/erc_ros2_simple_arm_py build --build-base /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/build install --record /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/install.log --single-version-externally-managed install_data
+[1.598s] running egg_info
+[1.598s] creating ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info
+[1.611s] writing ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/PKG-INFO
+[1.611s] writing dependency_links to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/dependency_links.txt
+[1.612s] writing requirements to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/requires.txt
+[1.612s] writing top-level names to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/top_level.txt
+[1.612s] writing manifest file '../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[1.638s] reading manifest file '../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[1.638s] writing manifest file '../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[1.638s] running build
+[1.638s] running build_py
+[1.638s] creating /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/build
+[1.638s] creating /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/build/lib
+[1.638s] creating /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+[1.638s] copying erc_ros2_simple_arm_py/__init__.py -> /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+[1.639s] copying erc_ros2_simple_arm_py/test_inverse_kinematics.py -> /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+[1.639s] running install
+[1.643s] running install_lib
+[1.655s] creating /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+[1.656s] copying /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/__init__.py -> /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+[1.656s] copying /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/test_inverse_kinematics.py -> /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+[1.656s] byte-compiling /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/__init__.py to __init__.cpython-312.pyc
+[1.656s] byte-compiling /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/test_inverse_kinematics.py to test_inverse_kinematics.cpython-312.pyc
+[1.657s] running install_data
+[1.657s] creating /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/share/ament_index
+[1.657s] creating /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/share/ament_index/resource_index
+[1.657s] creating /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/share/ament_index/resource_index/packages
+[1.657s] copying resource/erc_ros2_simple_arm_py -> /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/share/ament_index/resource_index/packages
+[1.657s] copying package.xml -> /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py
+[1.657s] running install_egg_info
+[1.671s] Copying ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info to /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py-0.0.0-py3.12.egg-info
+[1.671s] running install_scripts
+[1.759s] writing list of installed files to '/home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/install.log'
+[1.779s] Invoked command in '/home/arnavb/erc_ws/src/erc_ros2_simple_arm_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/erc_ros2_simple_arm_py build --build-base /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/build install --record /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/install.log --single-version-externally-managed install_data

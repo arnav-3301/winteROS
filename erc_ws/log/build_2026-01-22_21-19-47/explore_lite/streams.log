@@ -1,0 +1,135 @@
+[4.882s] Invoking command in '/home/arnavb/erc_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arnavb/erc_ws/src/week3/explore -DCMAKE_INSTALL_PREFIX=/home/arnavb/erc_ws/install/explore_lite
+[5.866s] -- The C compiler identification is GNU 13.3.0
+[5.867s] -- The CXX compiler identification is GNU 13.3.0
+[5.867s] -- Detecting C compiler ABI info
+[5.868s] -- Detecting C compiler ABI info - done
+[5.868s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.870s] -- Detecting C compile features
+[5.872s] -- Detecting C compile features - done
+[5.874s] -- Detecting CXX compiler ABI info
+[6.056s] -- Detecting CXX compiler ABI info - done
+[6.081s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.082s] -- Detecting CXX compile features
+[6.083s] -- Detecting CXX compile features - done
+[6.084s] -- BuilD for ROS2: jazzy
+[6.097s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.535s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.866s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[7.039s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[7.088s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[7.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.218s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.504s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[7.522s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[7.842s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.922s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.988s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.268s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[8.323s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[8.464s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[8.967s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[9.087s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[9.094s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.095s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.113s] -- Found nav2_msgs: 1.3.10 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[9.738s] -- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)
+[9.915s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[10.088s] -- Found nav2_costmap_2d: 1.3.10 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)
+[10.946s] -- Found slam_toolbox: 2.8.3 (/opt/ros/jazzy/share/slam_toolbox/cmake)
+[11.335s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[11.343s] -- Found OGRE
+[11.343s] --   static     : OFF
+[11.344s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[11.344s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[11.344s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[11.344s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[11.345s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[11.346s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[11.346s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[11.347s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[11.347s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[11.347s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[11.347s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[11.538s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[11.610s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[12.524s] -- Found X11: /usr/include   
+[12.527s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[12.886s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[12.887s] -- Looking for gethostbyname
+[13.221s] -- Looking for gethostbyname - found
+[13.222s] -- Looking for connect
+[13.560s] -- Looking for connect - found
+[13.560s] -- Looking for remove
+[13.908s] -- Looking for remove - found
+[13.908s] -- Looking for shmat
+[14.144s] -- Looking for shmat - found
+[14.144s] -- Looking for IceConnectionNumber in ICE
+[14.416s] -- Looking for IceConnectionNumber in ICE - found
+[14.475s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[14.886s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[15.363s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[15.376s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[15.397s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.712s] -- Found Threads: TRUE  
+[15.761s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.762s] -- Configured cppcheck include dirs: /home/arnavb/erc_ws/src/week3/explore/include;$<BUILD_INTERFACE:/home/arnavb/erc_ws/src/week3/explore/include>
+[15.762s] -- Configured cppcheck exclude dirs and/or files: 
+[15.765s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.765s] -- Configured 'flake8' exclude dirs and/or files: 
+[15.767s] -- Added test 'lint_cmake' to check CMake code style
+[15.769s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.772s] -- Added test 'uncrustify' to check C / C++ code style
+[15.773s] -- Configured uncrustify additional arguments: 
+[15.776s] -- Added test 'xmllint' to check XML markup files
+[15.784s] -- Configuring done (10.9s)
+[16.137s] -- Generating done (0.2s)
+[16.187s] -- Build files have been written to: /home/arnavb/erc_ws/build/explore_lite
+[16.254s] Invoked command in '/home/arnavb/erc_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arnavb/erc_ws/src/week3/explore -DCMAKE_INSTALL_PREFIX=/home/arnavb/erc_ws/install/explore_lite
+[16.258s] Invoking command in '/home/arnavb/erc_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/explore_lite -- -j20 -l20
+[16.439s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[16.440s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[16.459s] [ 30%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[16.462s] [ 40%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[16.465s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[18.279s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[18.364s] [ 60%] Built target gtest_main
+[26.381s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[26.583s] [ 70%] Built target gtest
+[26.673s] [ 80%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[30.022s] [ 90%] [32m[1mLinking CXX executable test_explore[0m
+[34.925s] [ 90%] Built target test_explore
+[66.721s] [100%] [32m[1mLinking CXX executable explore[0m
+[76.647s] [100%] Built target explore
+[76.698s] Invoked command in '/home/arnavb/erc_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/explore_lite -- -j20 -l20
+[76.705s] Invoking command in '/home/arnavb/erc_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/explore_lite
+[76.738s] -- Install configuration: ""
+[76.739s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/include/explore/
+[76.740s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/include/explore//explore.h
+[76.742s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/include/explore//costmap_tools.h
+[76.742s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/include/explore//frontier_search.h
+[76.743s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/include/explore//costmap_client.h
+[76.743s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/config
+[76.743s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[76.744s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/config/params.yaml
+[76.745s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/launch
+[76.746s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[76.747s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/lib/explore_lite/explore
+[76.778s] -- Set non-toolchain portion of runtime path of "/home/arnavb/erc_ws/install/explore_lite/lib/explore_lite/explore" to ""
+[76.779s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[76.779s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[76.780s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[76.781s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[76.782s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/environment/path.sh
+[76.782s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/environment/path.dsv
+[76.783s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/local_setup.bash
+[76.783s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/local_setup.sh
+[76.784s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/local_setup.zsh
+[76.784s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/local_setup.dsv
+[76.785s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/package.dsv
+[76.786s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[76.786s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[76.786s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[76.787s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[76.787s] -- Installing: /home/arnavb/erc_ws/install/explore_lite/share/explore_lite/package.xml
+[76.792s] Invoked command in '/home/arnavb/erc_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/explore_lite

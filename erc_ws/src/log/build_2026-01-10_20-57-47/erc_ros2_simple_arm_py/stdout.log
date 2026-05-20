@@ -1,0 +1,17 @@
+running egg_info
+writing ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/PKG-INFO
+writing dependency_links to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/dependency_links.txt
+writing requirements to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/requires.txt
+writing top-level names to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/top_level.txt
+reading manifest file '../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+writing manifest file '../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info to /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/install.log'

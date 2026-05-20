@@ -1,0 +1,2 @@
+source;share/erc_ros2_navigation/environment/ament_prefix_path.sh
+source;share/erc_ros2_navigation/environment/path.sh

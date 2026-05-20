@@ -1,0 +1,34 @@
+running egg_info
+writing ../build/assgn/assgn.egg-info/PKG-INFO
+writing dependency_links to ../build/assgn/assgn.egg-info/dependency_links.txt
+writing entry points to ../build/assgn/assgn.egg-info/entry_points.txt
+writing requirements to ../build/assgn/assgn.egg-info/requires.txt
+writing top-level names to ../build/assgn/assgn.egg-info/top_level.txt
+reading manifest file '../build/assgn/assgn.egg-info/SOURCES.txt'
+writing manifest file '../build/assgn/assgn.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/arnavb/erc_ws/src/install/assgn/share/assgn/assgn
+copying assgn/tonystarklogic.py -> /home/arnavb/erc_ws/src/install/assgn/share/assgn/assgn
+creating /home/arnavb/erc_ws/src/install/assgn/share/assgn/rviz
+copying rviz/rviz.rviz -> /home/arnavb/erc_ws/src/install/assgn/share/assgn/rviz
+creating /home/arnavb/erc_ws/src/install/assgn/share/assgn/worlds
+copying worlds/IronManCave.sdf -> /home/arnavb/erc_ws/src/install/assgn/share/assgn/worlds
+creating /home/arnavb/erc_ws/src/install/assgn/share/assgn/models
+copying models/erc_bot.gazebo -> /home/arnavb/erc_ws/src/install/assgn/share/assgn/models
+copying models/IronRover.urdf -> /home/arnavb/erc_ws/src/install/assgn/share/assgn/models
+copying models/materials.xacro -> /home/arnavb/erc_ws/src/install/assgn/share/assgn/models
+creating /home/arnavb/erc_ws/src/install/assgn/share/assgn/meshes
+copying meshes/IronMan_ROS_Body.dae -> /home/arnavb/erc_ws/src/install/assgn/share/assgn/meshes
+copying meshes/IronManWheelLeftFront.dae -> /home/arnavb/erc_ws/src/install/assgn/share/assgn/meshes
+copying meshes/IronManWheelRightFront.dae -> /home/arnavb/erc_ws/src/install/assgn/share/assgn/meshes
+copying meshes/lidar.dae -> /home/arnavb/erc_ws/src/install/assgn/share/assgn/meshes
+running install_egg_info
+removing '/home/arnavb/erc_ws/src/install/assgn/lib/python3.12/site-packages/assgn-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/assgn/assgn.egg-info to /home/arnavb/erc_ws/src/install/assgn/lib/python3.12/site-packages/assgn-0.0.0-py3.12.egg-info
+running install_scripts
+Installing node script to /home/arnavb/erc_ws/src/install/assgn/lib/assgn
+writing list of installed files to '/home/arnavb/erc_ws/src/build/assgn/install.log'

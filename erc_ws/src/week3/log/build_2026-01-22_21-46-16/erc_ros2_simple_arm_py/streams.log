@@ -1,0 +1,26 @@
+[1.894s] Invoking command in '/home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/week3/build/erc_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/erc_ros2_simple_arm_py build --build-base /home/arnavb/erc_ws/src/week3/build/erc_ros2_simple_arm_py/build install --record /home/arnavb/erc_ws/src/week3/build/erc_ros2_simple_arm_py/install.log --single-version-externally-managed install_data
+[2.226s] running egg_info
+[2.249s] writing ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/PKG-INFO
+[2.249s] writing dependency_links to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/dependency_links.txt
+[2.250s] writing entry points to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/entry_points.txt
+[2.250s] writing requirements to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/requires.txt
+[2.250s] writing top-level names to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/top_level.txt
+[2.296s] reading manifest file '../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[2.298s] writing manifest file '../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[2.298s] running build
+[2.299s] running build_py
+[2.299s] copying erc_ros2_simple_arm_py/integrated_pickup.py -> /home/arnavb/erc_ws/src/week3/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+[2.299s] running install
+[2.305s] running install_lib
+[2.328s] copying /home/arnavb/erc_ws/src/week3/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/integrated_pickup.py -> /home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+[2.329s] byte-compiling /home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/integrated_pickup.py to integrated_pickup.cpython-312.pyc
+[2.332s] running install_data
+[2.332s] running install_egg_info
+[2.357s] removing '/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py-0.0.0-py3.12.egg-info' (and everything under it)
+[2.357s] Copying ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info to /home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py-0.0.0-py3.12.egg-info
+[2.358s] running install_scripts
+[2.515s] Installing integrated_pickup script to /home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py/lib/erc_ros2_simple_arm_py
+[2.515s] Installing inverse_kinematics script to /home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py/lib/erc_ros2_simple_arm_py
+[2.515s] Installing send_joint_angles script to /home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py/lib/erc_ros2_simple_arm_py
+[2.516s] writing list of installed files to '/home/arnavb/erc_ws/src/week3/build/erc_ros2_simple_arm_py/install.log'
+[2.576s] Invoked command in '/home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/week3/build/erc_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/erc_ros2_simple_arm_py build --build-base /home/arnavb/erc_ws/src/week3/build/erc_ros2_simple_arm_py/build install --record /home/arnavb/erc_ws/src/week3/build/erc_ros2_simple_arm_py/install.log --single-version-externally-managed install_data

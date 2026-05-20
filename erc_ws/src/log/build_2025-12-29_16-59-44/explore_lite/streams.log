@@ -1,0 +1,85 @@
+[0.648s] Invoking command in '/home/arnavb/erc_ws/src/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/src/build/explore_lite -- -j20 -l20
+[0.668s] -- BuilD for ROS2: jazzy
+[0.668s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.839s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.870s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.882s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.898s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.967s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.968s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.037s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.087s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.097s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.124s] -- Found tf2_ros: 0.36.16 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.257s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.259s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.260s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.262s] -- Found nav2_msgs: 1.3.10 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[1.351s] -- Found map_msgs: 2.4.1 (/opt/ros/jazzy/share/map_msgs/cmake)
+[1.375s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.404s] -- Found nav2_costmap_2d: 1.3.10 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)
+[1.499s] -- Found slam_toolbox: 2.8.3 (/opt/ros/jazzy/share/slam_toolbox/cmake)
+[1.585s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.586s] -- Found OGRE
+[1.586s] --   static     : OFF
+[1.586s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.586s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.587s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.587s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.587s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[1.587s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.587s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[1.587s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.587s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.587s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.587s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.614s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[1.624s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.784s] -- Found X11: /usr/include   
+[1.785s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.880s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.880s] -- Looking for gethostbyname
+[1.978s] -- Looking for gethostbyname - found
+[1.978s] -- Looking for connect
+[2.085s] -- Looking for connect - found
+[2.085s] -- Looking for remove
+[2.158s] -- Looking for remove - found
+[2.158s] -- Looking for shmat
+[2.231s] -- Looking for shmat - found
+[2.231s] -- Looking for IceConnectionNumber in ICE
+[2.316s] -- Looking for IceConnectionNumber in ICE - found
+[2.334s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.426s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.497s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.497s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.511s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.511s] -- Configured cppcheck include dirs: /home/arnavb/erc_ws/src/explore/include;$<BUILD_INTERFACE:/home/arnavb/erc_ws/src/explore/include>
+[2.511s] -- Configured cppcheck exclude dirs and/or files: 
+[2.512s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.512s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.512s] -- Added test 'lint_cmake' to check CMake code style
+[2.512s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.512s] -- Added test 'uncrustify' to check C / C++ code style
+[2.513s] -- Configured uncrustify additional arguments: 
+[2.513s] -- Added test 'xmllint' to check XML markup files
+[2.514s] -- Configuring done (1.8s)
+[2.569s] -- Generating done (0.0s)
+[2.577s] -- Build files have been written to: /home/arnavb/erc_ws/src/build/explore_lite
+[2.617s] [ 20%] Built target gtest
+[2.617s] [ 40%] Built target gtest_main
+[2.634s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[2.638s] [ 60%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[2.638s] [ 70%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[2.644s] [ 80%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[3.371s] [ 90%] [32m[1mLinking CXX executable test_explore[0m
+[4.687s] [ 90%] Built target test_explore
+[5.197s] [01m[K/home/arnavb/erc_ws/src/explore/src/explore.cpp:[m[K In member function ‘[01m[Kvoid explore::Explore::[01;32m[Kstop[m[K(bool)[m[K’:
+[5.197s] [01m[K/home/arnavb/erc_ws/src/explore/src/explore.cpp:478:5:[m[K [01;31m[Kerror: [m[K‘[01m[KreturnToInitialPose[m[K’ was not declared in this scope
+[5.197s]   478 |     [01;31m[KreturnToInitialPose[m[K();
+[5.197s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[8.207s] gmake[2]: *** [CMakeFiles/explore.dir/build.make:90: CMakeFiles/explore.dir/src/explore.cpp.o] Error 1
+[8.207s] gmake[2]: *** Waiting for unfinished jobs....
+[10.462s] gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/explore.dir/all] Error 2
+[10.462s] gmake: *** [Makefile:146: all] Error 2
+[10.464s] Invoked command in '/home/arnavb/erc_ws/src/build/explore_lite' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/src/build/explore_lite -- -j20 -l20

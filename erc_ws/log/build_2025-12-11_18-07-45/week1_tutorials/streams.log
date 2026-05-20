@@ -1,0 +1,22 @@
+[1.494s] Invoking command in '/home/arnavb/erc_ws/src/week1_tutorials': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/week1_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/week1_tutorials/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week1_tutorials build --build-base /home/arnavb/erc_ws/build/week1_tutorials/build install --record /home/arnavb/erc_ws/build/week1_tutorials/install.log --single-version-externally-managed install_data
+[1.808s] running egg_info
+[1.829s] writing ../../build/week1_tutorials/week1_tutorials.egg-info/PKG-INFO
+[1.831s] writing dependency_links to ../../build/week1_tutorials/week1_tutorials.egg-info/dependency_links.txt
+[1.831s] writing entry points to ../../build/week1_tutorials/week1_tutorials.egg-info/entry_points.txt
+[1.831s] writing requirements to ../../build/week1_tutorials/week1_tutorials.egg-info/requires.txt
+[1.831s] writing top-level names to ../../build/week1_tutorials/week1_tutorials.egg-info/top_level.txt
+[1.875s] reading manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+[1.876s] writing manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+[1.876s] running build
+[1.876s] running build_py
+[1.877s] running install
+[1.884s] running install_lib
+[1.908s] running install_data
+[1.908s] running install_egg_info
+[1.932s] removing '/home/arnavb/erc_ws/install/week1_tutorials/lib/python3.12/site-packages/week1_tutorials-0.0.0-py3.12.egg-info' (and everything under it)
+[1.933s] Copying ../../build/week1_tutorials/week1_tutorials.egg-info to /home/arnavb/erc_ws/install/week1_tutorials/lib/python3.12/site-packages/week1_tutorials-0.0.0-py3.12.egg-info
+[1.933s] running install_scripts
+[2.080s] Installing publisher script to /home/arnavb/erc_ws/install/week1_tutorials/lib/week1_tutorials
+[2.082s] Installing subscriber script to /home/arnavb/erc_ws/install/week1_tutorials/lib/week1_tutorials
+[2.083s] writing list of installed files to '/home/arnavb/erc_ws/build/week1_tutorials/install.log'
+[2.126s] Invoked command in '/home/arnavb/erc_ws/src/week1_tutorials' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/week1_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/week1_tutorials/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week1_tutorials build --build-base /home/arnavb/erc_ws/build/week1_tutorials/build install --record /home/arnavb/erc_ws/build/week1_tutorials/install.log --single-version-externally-managed install_data

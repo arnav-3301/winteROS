@@ -1,0 +1,57 @@
+[2.387s] Invoking command in '/home/arnavb/erc_ws/src/build/erc_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/src/build/erc_ros2_navigation -- -j20 -l20
+[5.912s] Invoked command in '/home/arnavb/erc_ws/src/build/erc_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/src/build/erc_ros2_navigation -- -j20 -l20
+[5.916s] Invoking command in '/home/arnavb/erc_ws/src/build/erc_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/src/build/erc_ros2_navigation
+[6.006s] -- Install configuration: ""
+[6.006s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/launch
+[6.007s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/launch/check_urdf.launch.py
+[6.007s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/launch/world.launch.py
+[6.007s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/launch/spawn_robot.launch.py
+[6.008s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/launch/.vscode
+[6.008s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/launch/.vscode/settings.json
+[6.008s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/worlds
+[6.008s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/worlds/empty.sdf
+[6.009s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/worlds/home.sdf
+[6.009s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/rviz
+[6.009s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/rviz/navigation.rviz
+[6.010s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/rviz/urdf.rviz
+[6.010s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/rviz/localization.rviz
+[6.010s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/rviz/rviz.rviz
+[6.010s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/rviz/mapping.rviz
+[6.010s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/urdf
+[6.011s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/urdf/erc_bot.gazebo
+[6.011s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/urdf/materials.xacro
+[6.011s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/urdf/erc_bot.urdf
+[6.012s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/meshes
+[6.024s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/meshes/IronManWheelLeftFront.dae
+[6.024s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/meshes/lidar.dae
+[6.025s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/meshes/IronManWheelRightFront.dae
+[6.025s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/meshes/IronMan_ROS_Body.dae
+[6.026s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/config
+[6.028s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/config/waypoints.yaml
+[6.029s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/config/ekf.yaml
+[6.029s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/config/slam_toolbox_mapping.yaml
+[6.029s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/config/navigation.yaml
+[6.030s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/config/slam_toolbox_localization.yaml
+[6.030s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/config/amcl_localization.yaml
+[6.030s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/config/gz_bridge.yaml
+[6.030s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/maps
+[6.031s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/maps/serialized.posegraph
+[6.031s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/maps/my_map.pgm
+[6.031s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/maps/serialized.data
+[6.031s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/maps/my_map.yaml
+[6.032s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/ament_index/resource_index/package_run_dependencies/erc_ros2_navigation
+[6.032s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/ament_index/resource_index/parent_prefix_path/erc_ros2_navigation
+[6.032s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/environment/ament_prefix_path.sh
+[6.034s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/environment/ament_prefix_path.dsv
+[6.034s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/environment/path.sh
+[6.034s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/environment/path.dsv
+[6.035s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/local_setup.bash
+[6.035s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/local_setup.sh
+[6.035s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/local_setup.zsh
+[6.035s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/local_setup.dsv
+[6.035s] -- Installing: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/package.dsv
+[6.036s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/ament_index/resource_index/packages/erc_ros2_navigation
+[6.036s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/cmake/erc_ros2_navigationConfig.cmake
+[6.036s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/cmake/erc_ros2_navigationConfig-version.cmake
+[6.036s] -- Up-to-date: /home/arnavb/erc_ws/src/install/erc_ros2_navigation/share/erc_ros2_navigation/package.xml
+[6.141s] Invoked command in '/home/arnavb/erc_ws/src/build/erc_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/src/build/erc_ros2_navigation

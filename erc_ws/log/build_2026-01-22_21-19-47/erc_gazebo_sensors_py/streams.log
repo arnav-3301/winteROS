@@ -1,0 +1,37 @@
+[7.526s] Invoking command in '/home/arnavb/erc_ws/src/week3/erc_gazebo_sensors_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_gazebo_sensors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_gazebo_sensors_py build --build-base /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build install --record /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/install.log --single-version-externally-managed install_data
+[8.194s] running egg_info
+[8.194s] creating ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info
+[8.234s] writing ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/PKG-INFO
+[8.235s] writing dependency_links to ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/dependency_links.txt
+[8.235s] writing entry points to ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/entry_points.txt
+[8.235s] writing requirements to ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/requires.txt
+[8.235s] writing top-level names to ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/top_level.txt
+[8.235s] writing manifest file '../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/SOURCES.txt'
+[8.311s] reading manifest file '../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/SOURCES.txt'
+[8.312s] writing manifest file '../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/SOURCES.txt'
+[8.313s] running build
+[8.313s] running build_py
+[8.313s] creating /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build
+[8.314s] creating /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build/lib
+[8.314s] creating /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build/lib/erc_gazebo_sensors_py
+[8.314s] copying erc_gazebo_sensors_py/__init__.py -> /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build/lib/erc_gazebo_sensors_py
+[8.314s] copying erc_gazebo_sensors_py/chase_the_ball.py -> /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build/lib/erc_gazebo_sensors_py
+[8.315s] running install
+[8.329s] running install_lib
+[8.370s] creating /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages/erc_gazebo_sensors_py
+[8.370s] copying /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build/lib/erc_gazebo_sensors_py/__init__.py -> /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages/erc_gazebo_sensors_py
+[8.370s] copying /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build/lib/erc_gazebo_sensors_py/chase_the_ball.py -> /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages/erc_gazebo_sensors_py
+[8.371s] byte-compiling /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages/erc_gazebo_sensors_py/__init__.py to __init__.cpython-312.pyc
+[8.372s] byte-compiling /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages/erc_gazebo_sensors_py/chase_the_ball.py to chase_the_ball.cpython-312.pyc
+[8.377s] running install_data
+[8.377s] creating /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/ament_index
+[8.377s] creating /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/ament_index/resource_index
+[8.378s] creating /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/ament_index/resource_index/packages
+[8.378s] copying resource/erc_gazebo_sensors_py -> /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/ament_index/resource_index/packages
+[8.378s] copying package.xml -> /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py
+[8.378s] running install_egg_info
+[8.440s] Copying ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info to /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages/erc_gazebo_sensors_py-0.0.0-py3.12.egg-info
+[8.442s] running install_scripts
+[8.740s] Installing chase_the_ball script to /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/erc_gazebo_sensors_py
+[8.740s] writing list of installed files to '/home/arnavb/erc_ws/build/erc_gazebo_sensors_py/install.log'
+[8.905s] Invoked command in '/home/arnavb/erc_ws/src/week3/erc_gazebo_sensors_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_gazebo_sensors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_gazebo_sensors_py build --build-base /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build install --record /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/install.log --single-version-externally-managed install_data

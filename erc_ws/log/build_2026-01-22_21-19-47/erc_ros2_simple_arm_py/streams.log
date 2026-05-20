@@ -1,0 +1,48 @@
+[7.426s] Invoking command in '/home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_ros2_simple_arm_py build --build-base /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build install --record /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/install.log --single-version-externally-managed install_data
+[8.112s] running egg_info
+[8.113s] creating ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info
+[8.148s] writing ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/PKG-INFO
+[8.148s] writing dependency_links to ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/dependency_links.txt
+[8.149s] writing entry points to ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/entry_points.txt
+[8.149s] writing requirements to ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/requires.txt
+[8.149s] writing top-level names to ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/top_level.txt
+[8.149s] writing manifest file '../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[8.232s] reading manifest file '../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[8.233s] writing manifest file '../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[8.234s] running build
+[8.234s] running build_py
+[8.236s] creating /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build
+[8.236s] creating /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib
+[8.237s] creating /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+[8.237s] copying erc_ros2_simple_arm_py/__init__.py -> /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+[8.237s] copying erc_ros2_simple_arm_py/integrated_pickup.py -> /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+[8.238s] copying erc_ros2_simple_arm_py/test_inverse_kinematics.py -> /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+[8.238s] copying erc_ros2_simple_arm_py/send_joint_angles.py -> /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+[8.239s] copying erc_ros2_simple_arm_py/inverse_kinematics.py -> /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+[8.239s] running install
+[8.251s] running install_lib
+[8.289s] creating /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+[8.290s] copying /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/__init__.py -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+[8.290s] copying /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/integrated_pickup.py -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+[8.292s] copying /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/test_inverse_kinematics.py -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+[8.292s] copying /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/send_joint_angles.py -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+[8.292s] copying /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/inverse_kinematics.py -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+[8.293s] byte-compiling /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/__init__.py to __init__.cpython-312.pyc
+[8.293s] byte-compiling /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/integrated_pickup.py to integrated_pickup.cpython-312.pyc
+[8.298s] byte-compiling /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/test_inverse_kinematics.py to test_inverse_kinematics.cpython-312.pyc
+[8.300s] byte-compiling /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/send_joint_angles.py to send_joint_angles.cpython-312.pyc
+[8.300s] byte-compiling /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/inverse_kinematics.py to inverse_kinematics.cpython-312.pyc
+[8.302s] running install_data
+[8.302s] creating /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/ament_index
+[8.303s] creating /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/ament_index/resource_index
+[8.303s] creating /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/ament_index/resource_index/packages
+[8.303s] copying resource/erc_ros2_simple_arm_py -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/ament_index/resource_index/packages
+[8.303s] copying package.xml -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py
+[8.303s] running install_egg_info
+[8.345s] Copying ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info to /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py-0.0.0-py3.12.egg-info
+[8.346s] running install_scripts
+[8.601s] Installing integrated_pickup script to /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/erc_ros2_simple_arm_py
+[8.602s] Installing inverse_kinematics script to /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/erc_ros2_simple_arm_py
+[8.603s] Installing send_joint_angles script to /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/erc_ros2_simple_arm_py
+[8.603s] writing list of installed files to '/home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/install.log'
+[8.750s] Invoked command in '/home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_ros2_simple_arm_py build --build-base /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build install --record /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+[0.355s] Invoking command in '/home/arnavb/erc_ws/src/build/erc_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/assgn/install/assgn:/home/arnavb/erc_ws/src/winteros_week2_sensors/install/mogi_trajectory_server:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/src/build/erc_gazebo_basics -- -j20 -l20
+[0.402s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.940s] -- Configuring done (0.5s)
+[0.945s] -- Generating done (0.0s)
+[0.947s] -- Build files have been written to: /home/arnavb/erc_ws/src/build/erc_gazebo_basics

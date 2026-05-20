@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info
+writing ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/PKG-INFO
+writing dependency_links to ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/dependency_links.txt
+writing entry points to ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/entry_points.txt
+writing requirements to ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/requires.txt
+writing top-level names to ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/top_level.txt
+writing manifest file '../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/SOURCES.txt'
+reading manifest file '../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/SOURCES.txt'
+writing manifest file '../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build
+creating /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build/lib
+creating /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build/lib/erc_gazebo_sensors_py
+copying erc_gazebo_sensors_py/__init__.py -> /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build/lib/erc_gazebo_sensors_py
+copying erc_gazebo_sensors_py/chase_the_ball.py -> /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build/lib/erc_gazebo_sensors_py
+running install
+running install_lib
+creating /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages/erc_gazebo_sensors_py
+copying /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build/lib/erc_gazebo_sensors_py/__init__.py -> /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages/erc_gazebo_sensors_py
+copying /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build/lib/erc_gazebo_sensors_py/chase_the_ball.py -> /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages/erc_gazebo_sensors_py
+byte-compiling /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages/erc_gazebo_sensors_py/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages/erc_gazebo_sensors_py/chase_the_ball.py to chase_the_ball.cpython-312.pyc
+running install_data
+creating /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/ament_index
+creating /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/ament_index/resource_index
+creating /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/ament_index/resource_index/packages
+copying resource/erc_gazebo_sensors_py -> /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py
+running install_egg_info
+Copying ../../../build/erc_gazebo_sensors_py/erc_gazebo_sensors_py.egg-info to /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages/erc_gazebo_sensors_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing chase_the_ball script to /home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/erc_gazebo_sensors_py
+writing list of installed files to '/home/arnavb/erc_ws/build/erc_gazebo_sensors_py/install.log'

@@ -1,0 +1,19 @@
+[2.613s] Invoking command in '/home/arnavb/erc_ws/src/erc_ros2_simple_arm_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/erc_ros2_simple_arm_py build --build-base /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/build install --record /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/install.log --single-version-externally-managed install_data
+[2.951s] running egg_info
+[2.974s] writing ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/PKG-INFO
+[2.974s] writing dependency_links to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/dependency_links.txt
+[2.975s] writing requirements to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/requires.txt
+[2.975s] writing top-level names to ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/top_level.txt
+[3.021s] reading manifest file '../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[3.022s] writing manifest file '../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+[3.022s] running build
+[3.022s] running build_py
+[3.023s] running install
+[3.034s] running install_lib
+[3.088s] running install_data
+[3.088s] running install_egg_info
+[3.131s] removing '/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py-0.0.0-py3.12.egg-info' (and everything under it)
+[3.131s] Copying ../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info to /home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py-0.0.0-py3.12.egg-info
+[3.132s] running install_scripts
+[3.292s] writing list of installed files to '/home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/install.log'
+[3.334s] Invoked command in '/home/arnavb/erc_ws/src/erc_ros2_simple_arm_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/erc_ros2_simple_arm_py build --build-base /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/build install --record /home/arnavb/erc_ws/src/build/erc_ros2_simple_arm_py/install.log --single-version-externally-managed install_data

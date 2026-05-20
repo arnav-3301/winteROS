@@ -1,0 +1,5 @@
+[console_scripts]
+controller_node = erc_ros2_navigation_py.controller_node:main
+follow_waypoints = erc_ros2_navigation_py.follow_waypoints:main
+send_initialpose = erc_ros2_navigation_py.send_initialpose:main
+slam_toolbox_load_map = erc_ros2_navigation_py.slam_toolbox_load_map:main

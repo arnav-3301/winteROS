@@ -1,0 +1,8 @@
+[01m[K/home/arnavb/erc_ws/src/explore/src/explore.cpp:[m[K In member function ‘[01m[Kvoid explore::Explore::[01;32m[Kstop[m[K(bool)[m[K’:
+[01m[K/home/arnavb/erc_ws/src/explore/src/explore.cpp:478:5:[m[K [01;31m[Kerror: [m[K‘[01m[KreturnToInitialPose[m[K’ was not declared in this scope
+  478 |     [01;31m[KreturnToInitialPose[m[K();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/explore.dir/build.make:90: CMakeFiles/explore.dir/src/explore.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/explore.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

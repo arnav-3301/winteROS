@@ -1,0 +1,23 @@
+[2.128s] Invoking command in '/home/arnavb/erc_ws/src/stark_os': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/stark_os/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/stark_os/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stark_os build --build-base /home/arnavb/erc_ws/src/build/stark_os/build install --record /home/arnavb/erc_ws/src/build/stark_os/install.log --single-version-externally-managed install_data
+[2.503s] running egg_info
+[2.524s] writing ../build/stark_os/stark_os.egg-info/PKG-INFO
+[2.524s] writing dependency_links to ../build/stark_os/stark_os.egg-info/dependency_links.txt
+[2.524s] writing entry points to ../build/stark_os/stark_os.egg-info/entry_points.txt
+[2.524s] writing requirements to ../build/stark_os/stark_os.egg-info/requires.txt
+[2.524s] writing top-level names to ../build/stark_os/stark_os.egg-info/top_level.txt
+[2.562s] reading manifest file '../build/stark_os/stark_os.egg-info/SOURCES.txt'
+[2.563s] writing manifest file '../build/stark_os/stark_os.egg-info/SOURCES.txt'
+[2.563s] running build
+[2.563s] running build_py
+[2.563s] running install
+[2.571s] running install_lib
+[2.606s] running install_data
+[2.606s] running install_egg_info
+[2.632s] removing '/home/arnavb/erc_ws/src/install/stark_os/lib/python3.12/site-packages/stark_os-0.0.0-py3.12.egg-info' (and everything under it)
+[2.632s] Copying ../build/stark_os/stark_os.egg-info to /home/arnavb/erc_ws/src/install/stark_os/lib/python3.12/site-packages/stark_os-0.0.0-py3.12.egg-info
+[2.634s] running install_scripts
+[2.847s] Installing publisher1 script to /home/arnavb/erc_ws/src/install/stark_os/lib/stark_os
+[2.847s] Installing publisher2 script to /home/arnavb/erc_ws/src/install/stark_os/lib/stark_os
+[2.847s] Installing subscriber script to /home/arnavb/erc_ws/src/install/stark_os/lib/stark_os
+[2.847s] writing list of installed files to '/home/arnavb/erc_ws/src/build/stark_os/install.log'
+[2.962s] Invoked command in '/home/arnavb/erc_ws/src/stark_os' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/stark_os/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/stark_os/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stark_os build --build-base /home/arnavb/erc_ws/src/build/stark_os/build install --record /home/arnavb/erc_ws/src/build/stark_os/install.log --single-version-externally-managed install_data

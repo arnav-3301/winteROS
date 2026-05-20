@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/arnavb/erc_ws/build/erc_gazebo_basics
+-- Install configuration: ""
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/launch
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/launch/check_urdf.launch.py
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/launch/world.launch.py
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/worlds
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/worlds/world.sdf
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/worlds/empty.sdf
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/rviz
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/rviz/urdf.rviz
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/rviz/rviz.rviz
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/urdf
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/urdf/materials.xacro
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/urdf/dume_bot.urdf
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/IronManWheelLeftFront.dae
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/IronManWheelRightFront.dae
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/wheel.SLDPRT
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/wheel.blend
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/IronMan_ROS_Body.dae
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/wheel.dae
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/wheel.STEP
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/meshes/wheel.STL
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/ament_index/resource_index/package_run_dependencies/erc_gazebo_basics
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/ament_index/resource_index/parent_prefix_path/erc_gazebo_basics
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/environment/ament_prefix_path.sh
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/environment/ament_prefix_path.dsv
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/environment/path.sh
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/environment/path.dsv
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/local_setup.bash
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/local_setup.sh
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/local_setup.zsh
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/local_setup.dsv
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.dsv
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/ament_index/resource_index/packages/erc_gazebo_basics
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/cmake/erc_gazebo_basicsConfig.cmake
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/cmake/erc_gazebo_basicsConfig-version.cmake
+-- Installing: /home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.xml

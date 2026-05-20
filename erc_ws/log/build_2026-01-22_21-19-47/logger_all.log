@@ -1,0 +1,759 @@
+[0.491s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.492s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a67ccaa3e60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a67cd49e4b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a67cd49e4b0>>, mixin_verb=('build',))
+[0.669s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.670s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.671s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arnavb/erc_ws'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/assgn) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/assgn) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/assgn) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/assgn) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/assgn) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/assgn) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/assgn) by extension 'colcon_meta'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/assgn) by extensions ['ros']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/assgn) by extension 'ros'
+[0.807s] DEBUG:colcon.colcon_core.package_identification:Package 'src/assgn' with type 'ros.ament_python' and name 'assgn'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_basics) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_basics) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_basics) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_basics) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_basics) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_basics) by extensions ['colcon_meta']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_basics) by extension 'colcon_meta'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_basics) by extensions ['ros']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_basics) by extension 'ros'
+[0.811s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erc_gazebo_basics' with type 'ros.ament_cmake' and name 'erc_gazebo_basics'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_sensors) by extension 'ignore'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_sensors) by extension 'ignore_ament_install'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_sensors) by extensions ['colcon_pkg']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_sensors) by extension 'colcon_pkg'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_sensors) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_sensors) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_sensors) by extensions ['ros']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/erc_gazebo_sensors) by extension 'ros'
+[0.816s] DEBUG:colcon.colcon_core.package_identification:Package 'src/erc_gazebo_sensors' with type 'ros.ament_cmake' and name 'erc_gazebo_sensors'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extensions ['ignore', 'ignore_ament_install']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extension 'ignore'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extension 'ignore_ament_install'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extensions ['colcon_pkg']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extension 'colcon_pkg'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extensions ['colcon_meta']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extension 'colcon_meta'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extensions ['ros']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mogi_trajectory_server) by extension 'ros'
+[0.822s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mogi_trajectory_server' with type 'ros.ament_python' and name 'mogi_trajectory_server'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extensions ['ignore', 'ignore_ament_install']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extension 'ignore_ament_install'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extensions ['colcon_pkg']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extension 'colcon_pkg'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extensions ['colcon_meta']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extension 'colcon_meta'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extensions ['ros']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extension 'ros'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extensions ['cmake', 'python']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extension 'cmake'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extension 'python'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extensions ['python_setup_py']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3) by extension 'python_setup_py'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/build) by extensions ['ignore', 'ignore_ament_install']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/build) by extension 'ignore'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/build) ignored
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_gazebo_sensors_py) by extensions ['ignore', 'ignore_ament_install']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_gazebo_sensors_py) by extension 'ignore'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_gazebo_sensors_py) by extension 'ignore_ament_install'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_gazebo_sensors_py) by extensions ['colcon_pkg']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_gazebo_sensors_py) by extension 'colcon_pkg'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_gazebo_sensors_py) by extensions ['colcon_meta']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_gazebo_sensors_py) by extension 'colcon_meta'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_gazebo_sensors_py) by extensions ['ros']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_gazebo_sensors_py) by extension 'ros'
+[0.829s] DEBUG:colcon.colcon_core.package_identification:Package 'src/week3/erc_gazebo_sensors_py' with type 'ros.ament_python' and name 'erc_gazebo_sensors_py'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation) by extension 'ignore'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation) by extension 'ignore_ament_install'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation) by extensions ['colcon_pkg']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation) by extension 'colcon_pkg'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation) by extensions ['colcon_meta']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation) by extension 'colcon_meta'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation) by extensions ['ros']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation) by extension 'ros'
+[0.834s] DEBUG:colcon.colcon_core.package_identification:Package 'src/week3/erc_ros2_navigation' with type 'ros.ament_cmake' and name 'erc_ros2_navigation'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation_py) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation_py) by extension 'ignore'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation_py) by extension 'ignore_ament_install'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation_py) by extensions ['colcon_pkg']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation_py) by extension 'colcon_pkg'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation_py) by extensions ['colcon_meta']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation_py) by extension 'colcon_meta'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation_py) by extensions ['ros']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_navigation_py) by extension 'ros'
+[0.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/week3/erc_ros2_navigation_py' with type 'ros.ament_python' and name 'erc_ros2_navigation_py'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm) by extension 'ignore'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm) by extension 'ignore_ament_install'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm) by extensions ['colcon_pkg']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm) by extension 'colcon_pkg'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm) by extensions ['colcon_meta']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm) by extension 'colcon_meta'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm) by extensions ['ros']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm) by extension 'ros'
+[0.841s] DEBUG:colcon.colcon_core.package_identification:Package 'src/week3/erc_ros2_simple_arm' with type 'ros.ament_cmake' and name 'erc_ros2_simple_arm'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm_py) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm_py) by extension 'ignore'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm_py) by extension 'ignore_ament_install'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm_py) by extensions ['colcon_pkg']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm_py) by extension 'colcon_pkg'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm_py) by extensions ['colcon_meta']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm_py) by extension 'colcon_meta'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm_py) by extensions ['ros']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_ros2_simple_arm_py) by extension 'ros'
+[0.845s] DEBUG:colcon.colcon_core.package_identification:Package 'src/week3/erc_ros2_simple_arm_py' with type 'ros.ament_python' and name 'erc_ros2_simple_arm_py'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_trajectory_server) by extensions ['ignore', 'ignore_ament_install']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_trajectory_server) by extension 'ignore'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_trajectory_server) by extension 'ignore_ament_install'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_trajectory_server) by extensions ['colcon_pkg']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_trajectory_server) by extension 'colcon_pkg'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_trajectory_server) by extensions ['colcon_meta']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_trajectory_server) by extension 'colcon_meta'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_trajectory_server) by extensions ['ros']
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/erc_trajectory_server) by extension 'ros'
+[0.848s] DEBUG:colcon.colcon_core.package_identification:Package 'src/week3/erc_trajectory_server' with type 'ros.ament_python' and name 'erc_trajectory_server'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/explore) by extensions ['ignore', 'ignore_ament_install']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/explore) by extension 'ignore'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/explore) by extension 'ignore_ament_install'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/explore) by extensions ['colcon_pkg']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/explore) by extension 'colcon_pkg'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/explore) by extensions ['colcon_meta']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/explore) by extension 'colcon_meta'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/explore) by extensions ['ros']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/explore) by extension 'ros'
+[0.855s] DEBUG:colcon.colcon_core.package_identification:Package 'src/week3/explore' with type 'ros.ament_cmake' and name 'explore_lite'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/install) by extensions ['ignore', 'ignore_ament_install']
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/install) by extension 'ignore'
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/install) ignored
+[0.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/log) by extensions ['ignore', 'ignore_ament_install']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/log) by extension 'ignore'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/log) ignored
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extensions ['ignore', 'ignore_ament_install']
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extension 'ignore'
+[0.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extension 'ignore_ament_install'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extensions ['colcon_pkg']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extension 'colcon_pkg'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extensions ['colcon_meta']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extension 'colcon_meta'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extensions ['ros']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extension 'ros'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extensions ['cmake', 'python']
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extension 'cmake'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extension 'python'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extensions ['python_setup_py']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder) by extension 'python_setup_py'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extension 'ignore'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extension 'ignore_ament_install'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extensions ['colcon_pkg']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extension 'colcon_pkg'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extensions ['colcon_meta']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extension 'colcon_meta'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extensions ['ros']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extension 'ros'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extensions ['cmake', 'python']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extension 'cmake'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extension 'python'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extensions ['python_setup_py']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/week3/red_cylinder/thumbnails) by extension 'python_setup_py'
+[0.861s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.861s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.861s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.861s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.861s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.957s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/arnavb/erc_ws/src/week3/install
+[0.960s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/arnavb/erc_ws/install
+[0.961s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/arnavb/erc_ws/src/erc_gazebo_basics/install
+[0.970s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 463 installed packages in /opt/ros/jazzy
+[0.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.289s] Level 5:colcon.colcon_core.verb:set package 'assgn' build argument 'cmake_args' from command line to 'None'
+[1.290s] Level 5:colcon.colcon_core.verb:set package 'assgn' build argument 'cmake_target' from command line to 'None'
+[1.290s] Level 5:colcon.colcon_core.verb:set package 'assgn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.290s] Level 5:colcon.colcon_core.verb:set package 'assgn' build argument 'cmake_clean_cache' from command line to 'False'
+[1.290s] Level 5:colcon.colcon_core.verb:set package 'assgn' build argument 'cmake_clean_first' from command line to 'False'
+[1.290s] Level 5:colcon.colcon_core.verb:set package 'assgn' build argument 'cmake_force_configure' from command line to 'False'
+[1.290s] Level 5:colcon.colcon_core.verb:set package 'assgn' build argument 'ament_cmake_args' from command line to 'None'
+[1.291s] Level 5:colcon.colcon_core.verb:set package 'assgn' build argument 'catkin_cmake_args' from command line to 'None'
+[1.291s] Level 5:colcon.colcon_core.verb:set package 'assgn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.291s] DEBUG:colcon.colcon_core.verb:Building package 'assgn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arnavb/erc_ws/build/assgn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arnavb/erc_ws/install/assgn', 'merge_install': False, 'path': '/home/arnavb/erc_ws/src/assgn', 'symlink_install': False, 'test_result_base': None}
+[1.292s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_basics' build argument 'cmake_args' from command line to 'None'
+[1.292s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_basics' build argument 'cmake_target' from command line to 'None'
+[1.292s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_basics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.292s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_basics' build argument 'cmake_clean_cache' from command line to 'False'
+[1.292s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_basics' build argument 'cmake_clean_first' from command line to 'False'
+[1.292s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_basics' build argument 'cmake_force_configure' from command line to 'False'
+[1.292s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_basics' build argument 'ament_cmake_args' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_basics' build argument 'catkin_cmake_args' from command line to 'None'
+[1.293s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_basics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.293s] DEBUG:colcon.colcon_core.verb:Building package 'erc_gazebo_basics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arnavb/erc_ws/build/erc_gazebo_basics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arnavb/erc_ws/install/erc_gazebo_basics', 'merge_install': False, 'path': '/home/arnavb/erc_ws/src/erc_gazebo_basics', 'symlink_install': False, 'test_result_base': None}
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors' build argument 'cmake_args' from command line to 'None'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors' build argument 'cmake_target' from command line to 'None'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors' build argument 'cmake_clean_first' from command line to 'False'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors' build argument 'cmake_force_configure' from command line to 'False'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors' build argument 'ament_cmake_args' from command line to 'None'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[1.294s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.295s] DEBUG:colcon.colcon_core.verb:Building package 'erc_gazebo_sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arnavb/erc_ws/build/erc_gazebo_sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arnavb/erc_ws/install/erc_gazebo_sensors', 'merge_install': False, 'path': '/home/arnavb/erc_ws/src/erc_gazebo_sensors', 'symlink_install': False, 'test_result_base': None}
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors_py' build argument 'cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors_py' build argument 'cmake_target' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'erc_gazebo_sensors_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.296s] DEBUG:colcon.colcon_core.verb:Building package 'erc_gazebo_sensors_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arnavb/erc_ws/build/erc_gazebo_sensors_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py', 'merge_install': False, 'path': '/home/arnavb/erc_ws/src/week3/erc_gazebo_sensors_py', 'symlink_install': False, 'test_result_base': None}
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation' build argument 'cmake_args' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation' build argument 'cmake_target' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.298s] DEBUG:colcon.colcon_core.verb:Building package 'erc_ros2_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arnavb/erc_ws/build/erc_ros2_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arnavb/erc_ws/install/erc_ros2_navigation', 'merge_install': False, 'path': '/home/arnavb/erc_ws/src/week3/erc_ros2_navigation', 'symlink_install': False, 'test_result_base': None}
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation_py' build argument 'cmake_args' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation_py' build argument 'cmake_target' from command line to 'None'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_navigation_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.300s] DEBUG:colcon.colcon_core.verb:Building package 'erc_ros2_navigation_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arnavb/erc_ws/build/erc_ros2_navigation_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arnavb/erc_ws/install/erc_ros2_navigation_py', 'merge_install': False, 'path': '/home/arnavb/erc_ws/src/week3/erc_ros2_navigation_py', 'symlink_install': False, 'test_result_base': None}
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm' build argument 'cmake_args' from command line to 'None'
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm' build argument 'cmake_target' from command line to 'None'
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm' build argument 'cmake_clean_first' from command line to 'False'
+[1.301s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm' build argument 'cmake_force_configure' from command line to 'False'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm' build argument 'ament_cmake_args' from command line to 'None'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[1.302s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.302s] DEBUG:colcon.colcon_core.verb:Building package 'erc_ros2_simple_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arnavb/erc_ws/build/erc_ros2_simple_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arnavb/erc_ws/install/erc_ros2_simple_arm', 'merge_install': False, 'path': '/home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm', 'symlink_install': False, 'test_result_base': None}
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm_py' build argument 'cmake_args' from command line to 'None'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm_py' build argument 'cmake_target' from command line to 'None'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.303s] Level 5:colcon.colcon_core.verb:set package 'erc_ros2_simple_arm_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.303s] DEBUG:colcon.colcon_core.verb:Building package 'erc_ros2_simple_arm_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arnavb/erc_ws/build/erc_ros2_simple_arm_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py', 'merge_install': False, 'path': '/home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm_py', 'symlink_install': False, 'test_result_base': None}
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'erc_trajectory_server' build argument 'cmake_args' from command line to 'None'
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'erc_trajectory_server' build argument 'cmake_target' from command line to 'None'
+[1.304s] Level 5:colcon.colcon_core.verb:set package 'erc_trajectory_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'erc_trajectory_server' build argument 'cmake_clean_cache' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'erc_trajectory_server' build argument 'cmake_clean_first' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'erc_trajectory_server' build argument 'cmake_force_configure' from command line to 'False'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'erc_trajectory_server' build argument 'ament_cmake_args' from command line to 'None'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'erc_trajectory_server' build argument 'catkin_cmake_args' from command line to 'None'
+[1.305s] Level 5:colcon.colcon_core.verb:set package 'erc_trajectory_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.305s] DEBUG:colcon.colcon_core.verb:Building package 'erc_trajectory_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arnavb/erc_ws/build/erc_trajectory_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arnavb/erc_ws/install/erc_trajectory_server', 'merge_install': False, 'path': '/home/arnavb/erc_ws/src/week3/erc_trajectory_server', 'symlink_install': False, 'test_result_base': None}
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_args' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target' from command line to 'None'
+[1.306s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_cache' from command line to 'False'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_first' from command line to 'False'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_force_configure' from command line to 'False'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'ament_cmake_args' from command line to 'None'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_cmake_args' from command line to 'None'
+[1.307s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.307s] DEBUG:colcon.colcon_core.verb:Building package 'explore_lite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arnavb/erc_ws/build/explore_lite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arnavb/erc_ws/install/explore_lite', 'merge_install': False, 'path': '/home/arnavb/erc_ws/src/week3/explore', 'symlink_install': False, 'test_result_base': None}
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_args' from command line to 'None'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_target' from command line to 'None'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_clean_cache' from command line to 'False'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_clean_first' from command line to 'False'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'cmake_force_configure' from command line to 'False'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'ament_cmake_args' from command line to 'None'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'catkin_cmake_args' from command line to 'None'
+[1.308s] Level 5:colcon.colcon_core.verb:set package 'mogi_trajectory_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.309s] DEBUG:colcon.colcon_core.verb:Building package 'mogi_trajectory_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arnavb/erc_ws/build/mogi_trajectory_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arnavb/erc_ws/install/mogi_trajectory_server', 'merge_install': False, 'path': '/home/arnavb/erc_ws/src/mogi_trajectory_server', 'symlink_install': False, 'test_result_base': None}
+[1.309s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.315s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arnavb/erc_ws/src/assgn' with build type 'ament_python'
+[1.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('assgn', 'ament_prefix_path')
+[1.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/assgn/share/assgn/hook/ament_prefix_path.ps1'
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/assgn/share/assgn/hook/ament_prefix_path.dsv'
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/assgn/share/assgn/hook/ament_prefix_path.sh'
+[1.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arnavb/erc_ws/src/erc_gazebo_basics' with build type 'ament_cmake'
+[1.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arnavb/erc_ws/src/erc_gazebo_basics'
+[1.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.382s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arnavb/erc_ws/src/erc_gazebo_sensors' with build type 'ament_cmake'
+[1.382s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arnavb/erc_ws/src/erc_gazebo_sensors'
+[1.383s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.405s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arnavb/erc_ws/src/week3/erc_gazebo_sensors_py' with build type 'ament_python'
+[1.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_gazebo_sensors_py', 'ament_prefix_path')
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py/hook/ament_prefix_path.ps1'
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py/hook/ament_prefix_path.dsv'
+[1.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py/hook/ament_prefix_path.sh'
+[1.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.434s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arnavb/erc_ws/src/week3/erc_ros2_navigation' with build type 'ament_cmake'
+[1.434s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arnavb/erc_ws/src/week3/erc_ros2_navigation'
+[1.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.452s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arnavb/erc_ws/src/week3/erc_ros2_navigation_py' with build type 'ament_python'
+[1.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_ros2_navigation_py', 'ament_prefix_path')
+[1.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/erc_ros2_navigation_py/hook/ament_prefix_path.ps1'
+[1.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/erc_ros2_navigation_py/hook/ament_prefix_path.dsv'
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/erc_ros2_navigation_py/hook/ament_prefix_path.sh'
+[1.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.479s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm' with build type 'ament_cmake'
+[1.479s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm'
+[1.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.501s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm_py' with build type 'ament_python'
+[1.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_ros2_simple_arm_py', 'ament_prefix_path')
+[1.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py/hook/ament_prefix_path.ps1'
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py/hook/ament_prefix_path.dsv'
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py/hook/ament_prefix_path.sh'
+[1.509s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.509s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.531s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arnavb/erc_ws/src/week3/erc_trajectory_server' with build type 'ament_python'
+[1.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_trajectory_server', 'ament_prefix_path')
+[1.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_trajectory_server/share/erc_trajectory_server/hook/ament_prefix_path.ps1'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_trajectory_server/share/erc_trajectory_server/hook/ament_prefix_path.dsv'
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_trajectory_server/share/erc_trajectory_server/hook/ament_prefix_path.sh'
+[1.539s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.557s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arnavb/erc_ws/src/week3/explore' with build type 'ament_cmake'
+[1.557s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arnavb/erc_ws/src/week3/explore'
+[1.558s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.559s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.581s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arnavb/erc_ws/src/mogi_trajectory_server' with build type 'ament_python'
+[1.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('mogi_trajectory_server', 'ament_prefix_path')
+[1.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/ament_prefix_path.ps1'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/ament_prefix_path.dsv'
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/ament_prefix_path.sh'
+[1.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.674s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arnavb/erc_ws/src/assgn'
+[2.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/erc_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/erc_gazebo_basics -- -j20 -l20
+[2.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/erc_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arnavb/erc_ws/src/erc_gazebo_sensors -DCMAKE_INSTALL_PREFIX=/home/arnavb/erc_ws/install/erc_gazebo_sensors
+[3.715s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arnavb/erc_ws/src/week3/erc_gazebo_sensors_py'
+[3.716s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.716s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/erc_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arnavb/erc_ws/src/week3/erc_ros2_navigation -DCMAKE_INSTALL_PREFIX=/home/arnavb/erc_ws/install/erc_ros2_navigation
+[4.562s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arnavb/erc_ws/src/week3/erc_ros2_navigation_py'
+[4.563s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.563s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/erc_ros2_simple_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm -DCMAKE_INSTALL_PREFIX=/home/arnavb/erc_ws/install/erc_ros2_simple_arm
+[5.540s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm_py'
+[5.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.416s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arnavb/erc_ws/src/week3/erc_trajectory_server'
+[6.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arnavb/erc_ws/src/week3/explore -DCMAKE_INSTALL_PREFIX=/home/arnavb/erc_ws/install/explore_lite
+[7.366s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arnavb/erc_ws/src/mogi_trajectory_server'
+[7.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/erc_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/erc_gazebo_basics -- -j20 -l20
+[7.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/erc_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/erc_gazebo_basics
+[7.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/erc_gazebo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arnavb/erc_ws/src/erc_gazebo_sensors -DCMAKE_INSTALL_PREFIX=/home/arnavb/erc_ws/install/erc_gazebo_sensors
+[7.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/erc_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/erc_gazebo_sensors -- -j20 -l20
+[7.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/erc_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arnavb/erc_ws/src/week3/erc_ros2_navigation -DCMAKE_INSTALL_PREFIX=/home/arnavb/erc_ws/install/erc_ros2_navigation
+[7.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/erc_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/erc_ros2_navigation -- -j20 -l20
+[7.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/erc_ros2_simple_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm -DCMAKE_INSTALL_PREFIX=/home/arnavb/erc_ws/install/erc_ros2_simple_arm
+[7.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/erc_ros2_simple_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/erc_ros2_simple_arm -- -j20 -l20
+[7.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erc_gazebo_basics)
+[7.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/erc_gazebo_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/erc_gazebo_basics
+[7.557s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_basics' for CMake module files
+[7.561s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_basics' for CMake config files
+[7.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_gazebo_basics', 'cmake_prefix_path')
+[7.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/hook/cmake_prefix_path.ps1'
+[7.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/hook/cmake_prefix_path.dsv'
+[7.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/hook/cmake_prefix_path.sh'
+[7.567s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_basics/bin'
+[7.568s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_basics/lib/pkgconfig/erc_gazebo_basics.pc'
+[7.568s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_basics/lib/python3.12/site-packages'
+[7.569s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_basics/bin'
+[7.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.ps1'
+[7.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.dsv'
+[7.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.sh'
+[7.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.bash'
+[7.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.zsh'
+[7.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/erc_gazebo_basics/share/colcon-core/packages/erc_gazebo_basics)
+[7.583s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erc_gazebo_basics)
+[7.585s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_basics' for CMake module files
+[7.586s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_basics' for CMake config files
+[7.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_gazebo_basics', 'cmake_prefix_path')
+[7.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/hook/cmake_prefix_path.ps1'
+[7.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/hook/cmake_prefix_path.dsv'
+[7.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/hook/cmake_prefix_path.sh'
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_basics/bin'
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_basics/lib/pkgconfig/erc_gazebo_basics.pc'
+[7.591s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_basics/lib/python3.12/site-packages'
+[7.591s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_basics/bin'
+[7.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.ps1'
+[7.593s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.dsv'
+[7.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.sh'
+[7.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.bash'
+[7.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_basics/share/erc_gazebo_basics/package.zsh'
+[7.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/erc_gazebo_basics/share/colcon-core/packages/erc_gazebo_basics)
+[7.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/erc_gazebo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/erc_gazebo_sensors -- -j20 -l20
+[7.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/erc_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/erc_gazebo_sensors
+[7.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/erc_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/erc_ros2_navigation -- -j20 -l20
+[7.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/erc_ros2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/erc_ros2_navigation
+[7.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/erc_ros2_simple_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/erc_ros2_simple_arm -- -j20 -l20
+[7.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/erc_ros2_simple_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/erc_ros2_simple_arm
+[7.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erc_gazebo_sensors)
+[7.679s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors' for CMake module files
+[7.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/erc_gazebo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/erc_gazebo_sensors
+[7.682s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors' for CMake config files
+[7.682s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_gazebo_sensors', 'cmake_prefix_path')
+[7.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/hook/cmake_prefix_path.ps1'
+[7.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/hook/cmake_prefix_path.dsv'
+[7.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/hook/cmake_prefix_path.sh'
+[7.686s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors/bin'
+[7.686s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors/lib/pkgconfig/erc_gazebo_sensors.pc'
+[7.686s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors/lib/python3.12/site-packages'
+[7.687s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors/bin'
+[7.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/package.ps1'
+[7.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/package.dsv'
+[7.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/package.sh'
+[7.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/package.bash'
+[7.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/package.zsh'
+[7.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/colcon-core/packages/erc_gazebo_sensors)
+[7.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erc_gazebo_sensors)
+[7.710s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors' for CMake module files
+[7.711s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors' for CMake config files
+[7.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_gazebo_sensors', 'cmake_prefix_path')
+[7.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/hook/cmake_prefix_path.ps1'
+[7.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/hook/cmake_prefix_path.dsv'
+[7.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/hook/cmake_prefix_path.sh'
+[7.715s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors/bin'
+[7.716s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors/lib/pkgconfig/erc_gazebo_sensors.pc'
+[7.716s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors/lib/python3.12/site-packages'
+[7.717s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors/bin'
+[7.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/package.ps1'
+[7.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/package.dsv'
+[7.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/package.sh'
+[7.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/package.bash'
+[7.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/erc_gazebo_sensors/package.zsh'
+[7.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/erc_gazebo_sensors/share/colcon-core/packages/erc_gazebo_sensors)
+[7.738s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erc_ros2_navigation)
+[7.739s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation' for CMake module files
+[7.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/erc_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/erc_ros2_navigation
+[7.743s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation' for CMake config files
+[7.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_ros2_navigation', 'cmake_prefix_path')
+[7.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/hook/cmake_prefix_path.ps1'
+[7.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/hook/cmake_prefix_path.dsv'
+[7.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/hook/cmake_prefix_path.sh'
+[7.749s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation/bin'
+[7.749s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation/lib/pkgconfig/erc_ros2_navigation.pc'
+[7.749s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation/lib/python3.12/site-packages'
+[7.750s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation/bin'
+[7.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/package.ps1'
+[7.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/package.dsv'
+[7.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/package.sh'
+[7.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/package.bash'
+[7.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/package.zsh'
+[7.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/erc_ros2_navigation/share/colcon-core/packages/erc_ros2_navigation)
+[7.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erc_ros2_navigation)
+[7.761s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation' for CMake module files
+[7.763s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation' for CMake config files
+[7.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_ros2_navigation', 'cmake_prefix_path')
+[7.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/hook/cmake_prefix_path.ps1'
+[7.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/hook/cmake_prefix_path.dsv'
+[7.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/hook/cmake_prefix_path.sh'
+[7.767s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation/bin'
+[7.767s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation/lib/pkgconfig/erc_ros2_navigation.pc'
+[7.767s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation/lib/python3.12/site-packages'
+[7.768s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation/bin'
+[7.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/package.ps1'
+[7.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/package.dsv'
+[7.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/package.sh'
+[7.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/package.bash'
+[7.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_navigation/share/erc_ros2_navigation/package.zsh'
+[7.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/erc_ros2_navigation/share/colcon-core/packages/erc_ros2_navigation)
+[7.774s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erc_ros2_simple_arm)
+[7.775s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm' for CMake module files
+[7.776s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm' for CMake config files
+[7.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/erc_ros2_simple_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/erc_ros2_simple_arm
+[7.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_ros2_simple_arm', 'cmake_prefix_path')
+[7.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/hook/cmake_prefix_path.ps1'
+[7.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/hook/cmake_prefix_path.dsv'
+[7.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/hook/cmake_prefix_path.sh'
+[7.783s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/bin'
+[7.783s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/lib/pkgconfig/erc_ros2_simple_arm.pc'
+[7.783s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/lib/python3.12/site-packages'
+[7.784s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/bin'
+[7.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/package.ps1'
+[7.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/package.dsv'
+[7.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/package.sh'
+[7.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/package.bash'
+[7.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/package.zsh'
+[7.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/colcon-core/packages/erc_ros2_simple_arm)
+[7.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erc_ros2_simple_arm)
+[7.791s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm' for CMake module files
+[7.793s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm' for CMake config files
+[7.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_ros2_simple_arm', 'cmake_prefix_path')
+[7.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/hook/cmake_prefix_path.ps1'
+[7.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/hook/cmake_prefix_path.dsv'
+[7.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/hook/cmake_prefix_path.sh'
+[7.798s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/bin'
+[7.798s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/lib/pkgconfig/erc_ros2_simple_arm.pc'
+[7.798s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/lib/python3.12/site-packages'
+[7.799s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/bin'
+[7.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/package.ps1'
+[7.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/package.dsv'
+[7.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/package.sh'
+[7.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/package.bash'
+[7.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/erc_ros2_simple_arm/package.zsh'
+[7.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/erc_ros2_simple_arm/share/colcon-core/packages/erc_ros2_simple_arm)
+[8.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_ros2_simple_arm_py build --build-base /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build install --record /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/install.log --single-version-externally-managed install_data
+[8.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/src/week3/erc_gazebo_sensors_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_gazebo_sensors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_gazebo_sensors_py build --build-base /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build install --record /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/install.log --single-version-externally-managed install_data
+[8.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/src/mogi_trajectory_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/arnavb/erc_ws/build/mogi_trajectory_server/build install --record /home/arnavb/erc_ws/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
+[9.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/src/assgn': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/assgn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/assgn/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assgn build --build-base /home/arnavb/erc_ws/build/assgn/build install --record /home/arnavb/erc_ws/build/assgn/install.log --single-version-externally-managed install_data
+[9.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/src/week3/erc_ros2_navigation_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_ros2_navigation_py build --build-base /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build install --record /home/arnavb/erc_ws/build/erc_ros2_navigation_py/install.log --single-version-externally-managed install_data
+[9.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/src/week3/erc_trajectory_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_trajectory_server build --build-base /home/arnavb/erc_ws/build/erc_trajectory_server/build install --record /home/arnavb/erc_ws/build/erc_trajectory_server/install.log --single-version-externally-managed install_data
+[10.249s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py' for CMake module files
+[10.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/src/week3/erc_ros2_simple_arm_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_ros2_simple_arm_py build --build-base /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build install --record /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/install.log --single-version-externally-managed install_data
+[10.252s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py' for CMake config files
+[10.253s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib'
+[10.253s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/bin'
+[10.254s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/pkgconfig/erc_ros2_simple_arm_py.pc'
+[10.255s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages'
+[10.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_ros2_simple_arm_py', 'pythonpath')
+[10.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py/hook/pythonpath.ps1'
+[10.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py/hook/pythonpath.dsv'
+[10.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py/hook/pythonpath.sh'
+[10.260s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/bin'
+[10.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erc_ros2_simple_arm_py)
+[10.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py/package.ps1'
+[10.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py/package.dsv'
+[10.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py/package.sh'
+[10.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py/package.bash'
+[10.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py/package.zsh'
+[10.266s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/colcon-core/packages/erc_ros2_simple_arm_py)
+[10.269s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/mogi_trajectory_server' for CMake module files
+[10.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/src/mogi_trajectory_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/mogi_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/mogi_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mogi_trajectory_server build --build-base /home/arnavb/erc_ws/build/mogi_trajectory_server/build install --record /home/arnavb/erc_ws/build/mogi_trajectory_server/install.log --single-version-externally-managed install_data
+[10.271s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/mogi_trajectory_server' for CMake config files
+[10.272s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/mogi_trajectory_server/lib'
+[10.273s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/mogi_trajectory_server/bin'
+[10.273s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/mogi_trajectory_server/lib/pkgconfig/mogi_trajectory_server.pc'
+[10.273s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/mogi_trajectory_server/lib/python3.12/site-packages'
+[10.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('mogi_trajectory_server', 'pythonpath')
+[10.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/pythonpath.ps1'
+[10.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/pythonpath.dsv'
+[10.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/mogi_trajectory_server/share/mogi_trajectory_server/hook/pythonpath.sh'
+[10.277s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/mogi_trajectory_server/bin'
+[10.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mogi_trajectory_server)
+[10.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/mogi_trajectory_server/share/mogi_trajectory_server/package.ps1'
+[10.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/mogi_trajectory_server/share/mogi_trajectory_server/package.dsv'
+[10.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/mogi_trajectory_server/share/mogi_trajectory_server/package.sh'
+[10.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/mogi_trajectory_server/share/mogi_trajectory_server/package.bash'
+[10.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/mogi_trajectory_server/share/mogi_trajectory_server/package.zsh'
+[10.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/mogi_trajectory_server/share/colcon-core/packages/mogi_trajectory_server)
+[10.311s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py' for CMake module files
+[10.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/src/week3/erc_gazebo_sensors_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_gazebo_sensors_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_gazebo_sensors_py build --build-base /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/build install --record /home/arnavb/erc_ws/build/erc_gazebo_sensors_py/install.log --single-version-externally-managed install_data
+[10.314s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py' for CMake config files
+[10.314s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib'
+[10.315s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/bin'
+[10.315s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/pkgconfig/erc_gazebo_sensors_py.pc'
+[10.315s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages'
+[10.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_gazebo_sensors_py', 'pythonpath')
+[10.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py/hook/pythonpath.ps1'
+[10.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py/hook/pythonpath.dsv'
+[10.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py/hook/pythonpath.sh'
+[10.319s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/bin'
+[10.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erc_gazebo_sensors_py)
+[10.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py/package.ps1'
+[10.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py/package.dsv'
+[10.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py/package.sh'
+[10.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py/package.bash'
+[10.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/erc_gazebo_sensors_py/package.zsh'
+[10.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/erc_gazebo_sensors_py/share/colcon-core/packages/erc_gazebo_sensors_py)
+[10.679s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation_py' for CMake module files
+[10.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/src/week3/erc_ros2_navigation_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_ros2_navigation_py build --build-base /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build install --record /home/arnavb/erc_ws/build/erc_ros2_navigation_py/install.log --single-version-externally-managed install_data
+[10.680s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation_py' for CMake config files
+[10.681s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib'
+[10.681s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/bin'
+[10.681s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/pkgconfig/erc_ros2_navigation_py.pc'
+[10.682s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages'
+[10.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_ros2_navigation_py', 'pythonpath')
+[10.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/erc_ros2_navigation_py/hook/pythonpath.ps1'
+[10.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/erc_ros2_navigation_py/hook/pythonpath.dsv'
+[10.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/erc_ros2_navigation_py/hook/pythonpath.sh'
+[10.688s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/bin'
+[10.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erc_ros2_navigation_py)
+[10.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/erc_ros2_navigation_py/package.ps1'
+[10.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/erc_ros2_navigation_py/package.dsv'
+[10.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/erc_ros2_navigation_py/package.sh'
+[10.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/erc_ros2_navigation_py/package.bash'
+[10.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/erc_ros2_navigation_py/package.zsh'
+[10.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/colcon-core/packages/erc_ros2_navigation_py)
+[10.751s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/assgn' for CMake module files
+[10.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/src/assgn' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/assgn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/assgn/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assgn build --build-base /home/arnavb/erc_ws/build/assgn/build install --record /home/arnavb/erc_ws/build/assgn/install.log --single-version-externally-managed install_data
+[10.755s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/assgn' for CMake config files
+[10.759s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/assgn/lib'
+[10.760s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/assgn/bin'
+[10.760s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/assgn/lib/pkgconfig/assgn.pc'
+[10.761s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/assgn/lib/python3.12/site-packages'
+[10.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('assgn', 'pythonpath')
+[10.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/assgn/share/assgn/hook/pythonpath.ps1'
+[10.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/assgn/share/assgn/hook/pythonpath.dsv'
+[10.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/assgn/share/assgn/hook/pythonpath.sh'
+[10.769s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/assgn/bin'
+[10.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(assgn)
+[10.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/assgn/share/assgn/package.ps1'
+[10.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/assgn/share/assgn/package.dsv'
+[10.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/assgn/share/assgn/package.sh'
+[10.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/assgn/share/assgn/package.bash'
+[10.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/assgn/share/assgn/package.zsh'
+[10.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/assgn/share/colcon-core/packages/assgn)
+[11.240s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_trajectory_server' for CMake module files
+[11.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/src/week3/erc_trajectory_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_trajectory_server build --build-base /home/arnavb/erc_ws/build/erc_trajectory_server/build install --record /home/arnavb/erc_ws/build/erc_trajectory_server/install.log --single-version-externally-managed install_data
+[11.244s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_trajectory_server' for CMake config files
+[11.246s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_trajectory_server/lib'
+[11.246s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_trajectory_server/bin'
+[11.247s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_trajectory_server/lib/pkgconfig/erc_trajectory_server.pc'
+[11.247s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_trajectory_server/lib/python3.12/site-packages'
+[11.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('erc_trajectory_server', 'pythonpath')
+[11.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_trajectory_server/share/erc_trajectory_server/hook/pythonpath.ps1'
+[11.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/erc_trajectory_server/share/erc_trajectory_server/hook/pythonpath.dsv'
+[11.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/erc_trajectory_server/share/erc_trajectory_server/hook/pythonpath.sh'
+[11.257s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/erc_trajectory_server/bin'
+[11.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(erc_trajectory_server)
+[11.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_trajectory_server/share/erc_trajectory_server/package.ps1'
+[11.260s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/erc_trajectory_server/share/erc_trajectory_server/package.dsv'
+[11.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_trajectory_server/share/erc_trajectory_server/package.sh'
+[11.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_trajectory_server/share/erc_trajectory_server/package.bash'
+[11.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/erc_trajectory_server/share/erc_trajectory_server/package.zsh'
+[11.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/erc_trajectory_server/share/colcon-core/packages/erc_trajectory_server)
+[17.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arnavb/erc_ws/src/week3/explore -DCMAKE_INSTALL_PREFIX=/home/arnavb/erc_ws/install/explore_lite
+[17.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/explore_lite -- -j20 -l20
+[78.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/build/explore_lite -- -j20 -l20
+[78.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arnavb/erc_ws/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/explore_lite
+[78.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[78.350s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite' for CMake module files
+[78.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arnavb/erc_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/week3/install/erc_trajectory_server:/home/arnavb/erc_ws/src/week3/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/week3/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/week3/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/build/explore_lite
+[78.354s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite' for CMake config files
+[78.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[78.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[78.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[78.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[78.362s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite/lib'
+[78.363s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite/bin'
+[78.363s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[78.365s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite/lib/python3.12/site-packages'
+[78.366s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite/bin'
+[78.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/package.ps1'
+[78.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/package.dsv'
+[78.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/package.sh'
+[78.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/package.bash'
+[78.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/package.zsh'
+[78.375s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[78.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[78.379s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite' for CMake module files
+[78.382s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite' for CMake config files
+[78.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[78.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[78.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[78.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[78.389s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite/lib'
+[78.389s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite/bin'
+[78.390s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[78.391s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite/lib/python3.12/site-packages'
+[78.392s] Level 1:colcon.colcon_core.environment:checking '/home/arnavb/erc_ws/install/explore_lite/bin'
+[78.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/package.ps1'
+[78.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/package.dsv'
+[78.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/package.sh'
+[78.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/package.bash'
+[78.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/arnavb/erc_ws/install/explore_lite/share/explore_lite/package.zsh'
+[78.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arnavb/erc_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[78.404s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[78.405s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[78.405s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[78.405s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[78.435s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[78.436s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[78.436s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[78.467s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[78.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arnavb/erc_ws/install/local_setup.ps1'
+[78.471s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arnavb/erc_ws/install/_local_setup_util_ps1.py'
+[78.475s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arnavb/erc_ws/install/setup.ps1'
+[78.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arnavb/erc_ws/install/local_setup.sh'
+[78.487s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arnavb/erc_ws/install/_local_setup_util_sh.py'
+[78.489s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arnavb/erc_ws/install/setup.sh'
+[78.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arnavb/erc_ws/install/local_setup.bash'
+[78.496s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arnavb/erc_ws/install/setup.bash'
+[78.500s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arnavb/erc_ws/install/local_setup.zsh'
+[78.502s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arnavb/erc_ws/install/setup.zsh'

@@ -1,0 +1,49 @@
+[7.760s] Invoking command in '/home/arnavb/erc_ws/src/week3/erc_ros2_navigation_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_ros2_navigation_py build --build-base /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build install --record /home/arnavb/erc_ws/build/erc_ros2_navigation_py/install.log --single-version-externally-managed install_data
+[8.492s] running egg_info
+[8.492s] creating ../../../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info
+[8.528s] writing ../../../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/PKG-INFO
+[8.529s] writing dependency_links to ../../../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/dependency_links.txt
+[8.529s] writing entry points to ../../../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/entry_points.txt
+[8.529s] writing requirements to ../../../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/requires.txt
+[8.530s] writing top-level names to ../../../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/top_level.txt
+[8.530s] writing manifest file '../../../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/SOURCES.txt'
+[8.611s] reading manifest file '../../../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/SOURCES.txt'
+[8.612s] writing manifest file '../../../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info/SOURCES.txt'
+[8.612s] running build
+[8.613s] running build_py
+[8.613s] creating /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build
+[8.613s] creating /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build/lib
+[8.613s] creating /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build/lib/erc_ros2_navigation_py
+[8.614s] copying erc_ros2_navigation_py/controller_node.py -> /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build/lib/erc_ros2_navigation_py
+[8.614s] copying erc_ros2_navigation_py/__init__.py -> /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build/lib/erc_ros2_navigation_py
+[8.614s] copying erc_ros2_navigation_py/send_initialpose.py -> /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build/lib/erc_ros2_navigation_py
+[8.614s] copying erc_ros2_navigation_py/follow_waypoints.py -> /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build/lib/erc_ros2_navigation_py
+[8.615s] copying erc_ros2_navigation_py/slam_toolbox_load_map.py -> /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build/lib/erc_ros2_navigation_py
+[8.615s] running install
+[8.630s] running install_lib
+[8.693s] creating /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py
+[8.693s] copying /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build/lib/erc_ros2_navigation_py/controller_node.py -> /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py
+[8.694s] copying /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build/lib/erc_ros2_navigation_py/__init__.py -> /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py
+[8.694s] copying /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build/lib/erc_ros2_navigation_py/send_initialpose.py -> /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py
+[8.694s] copying /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build/lib/erc_ros2_navigation_py/follow_waypoints.py -> /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py
+[8.694s] copying /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build/lib/erc_ros2_navigation_py/slam_toolbox_load_map.py -> /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py
+[8.696s] byte-compiling /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py/controller_node.py to controller_node.cpython-312.pyc
+[8.697s] byte-compiling /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py/__init__.py to __init__.cpython-312.pyc
+[8.698s] byte-compiling /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py/send_initialpose.py to send_initialpose.cpython-312.pyc
+[8.701s] byte-compiling /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py/follow_waypoints.py to follow_waypoints.cpython-312.pyc
+[8.704s] byte-compiling /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py/slam_toolbox_load_map.py to slam_toolbox_load_map.cpython-312.pyc
+[8.706s] running install_data
+[8.707s] creating /home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/ament_index
+[8.707s] creating /home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/ament_index/resource_index
+[8.708s] creating /home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/ament_index/resource_index/packages
+[8.708s] copying resource/erc_ros2_navigation_py -> /home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/ament_index/resource_index/packages
+[8.708s] copying package.xml -> /home/arnavb/erc_ws/install/erc_ros2_navigation_py/share/erc_ros2_navigation_py
+[8.708s] running install_egg_info
+[8.764s] Copying ../../../build/erc_ros2_navigation_py/erc_ros2_navigation_py.egg-info to /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages/erc_ros2_navigation_py-1.0.0-py3.12.egg-info
+[8.766s] running install_scripts
+[9.098s] Installing controller_node script to /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/erc_ros2_navigation_py
+[9.099s] Installing follow_waypoints script to /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/erc_ros2_navigation_py
+[9.100s] Installing send_initialpose script to /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/erc_ros2_navigation_py
+[9.100s] Installing slam_toolbox_load_map script to /home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/erc_ros2_navigation_py
+[9.100s] writing list of installed files to '/home/arnavb/erc_ws/build/erc_ros2_navigation_py/install.log'
+[9.225s] Invoked command in '/home/arnavb/erc_ws/src/week3/erc_ros2_navigation_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/build/erc_ros2_navigation_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/install/erc_ros2_navigation_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/erc_ros2_navigation_py build --build-base /home/arnavb/erc_ws/build/erc_ros2_navigation_py/build install --record /home/arnavb/erc_ws/build/erc_ros2_navigation_py/install.log --single-version-externally-managed install_data

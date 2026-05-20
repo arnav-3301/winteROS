@@ -1,0 +1,23 @@
+[2.316s] Invoking command in '/home/arnavb/erc_ws/src/erc_trajectory_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/erc_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/erc_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/erc_trajectory_server build --build-base /home/arnavb/erc_ws/src/build/erc_trajectory_server/build install --record /home/arnavb/erc_ws/src/build/erc_trajectory_server/install.log --single-version-externally-managed install_data
+[2.636s] running egg_info
+[2.658s] writing ../build/erc_trajectory_server/erc_trajectory_server.egg-info/PKG-INFO
+[2.659s] writing dependency_links to ../build/erc_trajectory_server/erc_trajectory_server.egg-info/dependency_links.txt
+[2.659s] writing entry points to ../build/erc_trajectory_server/erc_trajectory_server.egg-info/entry_points.txt
+[2.659s] writing requirements to ../build/erc_trajectory_server/erc_trajectory_server.egg-info/requires.txt
+[2.659s] writing top-level names to ../build/erc_trajectory_server/erc_trajectory_server.egg-info/top_level.txt
+[2.704s] reading manifest file '../build/erc_trajectory_server/erc_trajectory_server.egg-info/SOURCES.txt'
+[2.704s] adding license file 'LICENSE'
+[2.705s] writing manifest file '../build/erc_trajectory_server/erc_trajectory_server.egg-info/SOURCES.txt'
+[2.705s] running build
+[2.705s] running build_py
+[2.706s] running install
+[2.713s] running install_lib
+[2.737s] running install_data
+[2.737s] running install_egg_info
+[2.761s] removing '/home/arnavb/erc_ws/src/install/erc_trajectory_server/lib/python3.12/site-packages/erc_trajectory_server-1.0.0-py3.12.egg-info' (and everything under it)
+[2.761s] Copying ../build/erc_trajectory_server/erc_trajectory_server.egg-info to /home/arnavb/erc_ws/src/install/erc_trajectory_server/lib/python3.12/site-packages/erc_trajectory_server-1.0.0-py3.12.egg-info
+[2.762s] running install_scripts
+[2.913s] Installing erc_trajectory_server script to /home/arnavb/erc_ws/src/install/erc_trajectory_server/lib/erc_trajectory_server
+[2.916s] Installing erc_trajectory_server_topic_based script to /home/arnavb/erc_ws/src/install/erc_trajectory_server/lib/erc_trajectory_server
+[2.916s] writing list of installed files to '/home/arnavb/erc_ws/src/build/erc_trajectory_server/install.log'
+[2.972s] Invoked command in '/home/arnavb/erc_ws/src/erc_trajectory_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/erc_trajectory_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/erc_trajectory_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/erc_trajectory_server build --build-base /home/arnavb/erc_ws/src/build/erc_trajectory_server/build install --record /home/arnavb/erc_ws/src/build/erc_trajectory_server/install.log --single-version-externally-managed install_data

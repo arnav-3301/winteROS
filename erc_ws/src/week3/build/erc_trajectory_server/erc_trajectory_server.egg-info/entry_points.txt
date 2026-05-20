@@ -1,0 +1,3 @@
+[console_scripts]
+erc_trajectory_server = erc_trajectory_server.trajectory:main
+erc_trajectory_server_topic_based = erc_trajectory_server.trajectory_topic_based:main

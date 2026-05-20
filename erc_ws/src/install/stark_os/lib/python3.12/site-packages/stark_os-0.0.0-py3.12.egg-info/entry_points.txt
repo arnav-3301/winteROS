@@ -1,0 +1,4 @@
+[console_scripts]
+publisher1 = stark_os.talker1:main
+publisher2 = stark_os.talker2:main
+subscriber = stark_os.listener:main

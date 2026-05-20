@@ -1,0 +1,46 @@
+running egg_info
+creating ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info
+writing ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/PKG-INFO
+writing dependency_links to ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/dependency_links.txt
+writing entry points to ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/entry_points.txt
+writing requirements to ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/requires.txt
+writing top-level names to ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/top_level.txt
+writing manifest file '../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+reading manifest file '../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+writing manifest file '../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build
+creating /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib
+creating /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+copying erc_ros2_simple_arm_py/__init__.py -> /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+copying erc_ros2_simple_arm_py/integrated_pickup.py -> /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+copying erc_ros2_simple_arm_py/test_inverse_kinematics.py -> /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+copying erc_ros2_simple_arm_py/send_joint_angles.py -> /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+copying erc_ros2_simple_arm_py/inverse_kinematics.py -> /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py
+running install
+running install_lib
+creating /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+copying /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/__init__.py -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+copying /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/integrated_pickup.py -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+copying /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/test_inverse_kinematics.py -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+copying /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/send_joint_angles.py -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+copying /home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/build/lib/erc_ros2_simple_arm_py/inverse_kinematics.py -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py
+byte-compiling /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/integrated_pickup.py to integrated_pickup.cpython-312.pyc
+byte-compiling /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/test_inverse_kinematics.py to test_inverse_kinematics.cpython-312.pyc
+byte-compiling /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/send_joint_angles.py to send_joint_angles.cpython-312.pyc
+byte-compiling /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py/inverse_kinematics.py to inverse_kinematics.cpython-312.pyc
+running install_data
+creating /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/ament_index
+creating /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/ament_index/resource_index
+creating /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/ament_index/resource_index/packages
+copying resource/erc_ros2_simple_arm_py -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/share/erc_ros2_simple_arm_py
+running install_egg_info
+Copying ../../../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info to /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/python3.12/site-packages/erc_ros2_simple_arm_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing integrated_pickup script to /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/erc_ros2_simple_arm_py
+Installing inverse_kinematics script to /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/erc_ros2_simple_arm_py
+Installing send_joint_angles script to /home/arnavb/erc_ws/install/erc_ros2_simple_arm_py/lib/erc_ros2_simple_arm_py
+writing list of installed files to '/home/arnavb/erc_ws/build/erc_ros2_simple_arm_py/install.log'

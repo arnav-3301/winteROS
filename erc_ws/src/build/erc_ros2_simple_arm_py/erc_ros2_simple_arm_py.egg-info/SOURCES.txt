@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/PKG-INFO
+../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/SOURCES.txt
+../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/dependency_links.txt
+../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/entry_points.txt
+../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/requires.txt
+../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/top_level.txt
+../build/erc_ros2_simple_arm_py/erc_ros2_simple_arm_py.egg-info/zip-safe
+erc_ros2_simple_arm_py/__init__.py
+erc_ros2_simple_arm_py/inverse_kinematics.py
+erc_ros2_simple_arm_py/send_joint_angles.py
+erc_ros2_simple_arm_py/test_inverse_kinematics.py
+resource/erc_ros2_simple_arm_py

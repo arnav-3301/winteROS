@@ -1,0 +1,2 @@
+[console_scripts]
+chase_the_ball = erc_gazebo_sensors_py.chase_the_ball:main

@@ -1,0 +1,36 @@
+[1.445s] Invoking command in '/home/arnavb/erc_ws/src/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/src/build/explore_lite -- -j20 -l20
+[1.532s] [ 20%] Built target gtest_main
+[1.533s] [ 40%] Built target gtest
+[1.551s] [ 80%] Built target explore
+[1.571s] [100%] Built target test_explore
+[1.796s] Invoked command in '/home/arnavb/erc_ws/src/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/src/build/explore_lite -- -j20 -l20
+[1.798s] Invoking command in '/home/arnavb/erc_ws/src/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/src/build/explore_lite
+[1.812s] -- Install configuration: ""
+[1.812s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/include/explore/
+[1.813s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/include/explore//explore.h
+[1.813s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/include/explore//costmap_tools.h
+[1.813s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/include/explore//frontier_search.h
+[1.813s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/include/explore//costmap_client.h
+[1.813s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/config
+[1.813s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[1.813s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/config/params.yaml
+[1.813s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/launch
+[1.813s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[1.813s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/lib/explore_lite/explore
+[1.814s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[1.814s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[1.814s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[1.814s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[1.815s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/environment/path.sh
+[1.815s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/environment/path.dsv
+[1.815s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/local_setup.bash
+[1.815s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/local_setup.sh
+[1.815s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/local_setup.zsh
+[1.815s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/local_setup.dsv
+[1.816s] -- Installing: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/package.dsv
+[1.816s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[1.816s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.816s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[1.816s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[1.816s] -- Up-to-date: /home/arnavb/erc_ws/src/install/explore_lite/share/explore_lite/package.xml
+[1.922s] Invoked command in '/home/arnavb/erc_ws/src/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/src/install/week1_tutorials:/home/arnavb/erc_ws/src/install/stark_os:/home/arnavb/erc_ws/src/install/mogi_trajectory_server:/home/arnavb/erc_ws/src/install/erc_trajectory_server:/home/arnavb/erc_ws/src/install/erc_ros2_simple_arm_py:/home/arnavb/erc_ws/src/install/erc_ros2_navigation_py:/home/arnavb/erc_ws/src/install/erc_gazebo_sensors_py:/home/arnavb/erc_ws/src/install/assgn:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arnavb/erc_ws/src/build/explore_lite

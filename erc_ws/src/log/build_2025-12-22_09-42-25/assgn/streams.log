@@ -1,0 +1,25 @@
+[0.710s] Invoking command in '/home/arnavb/erc_ws/src/assgn': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/assgn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/assgn/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/assgn build --build-base /home/arnavb/erc_ws/src/build/assgn/build install --record /home/arnavb/erc_ws/src/build/assgn/install.log --single-version-externally-managed install_data
+[0.889s] running egg_info
+[0.901s] writing ../build/assgn/assgn.egg-info/PKG-INFO
+[0.901s] writing dependency_links to ../build/assgn/assgn.egg-info/dependency_links.txt
+[0.901s] writing entry points to ../build/assgn/assgn.egg-info/entry_points.txt
+[0.901s] writing requirements to ../build/assgn/assgn.egg-info/requires.txt
+[0.901s] writing top-level names to ../build/assgn/assgn.egg-info/top_level.txt
+[0.926s] reading manifest file '../build/assgn/assgn.egg-info/SOURCES.txt'
+[0.926s] writing manifest file '../build/assgn/assgn.egg-info/SOURCES.txt'
+[0.927s] running build
+[0.927s] running build_py
+[0.927s] copying assgn/tonystarklogic.py -> /home/arnavb/erc_ws/src/build/assgn/build/lib/assgn
+[0.927s] running install
+[0.931s] running install_lib
+[0.943s] copying /home/arnavb/erc_ws/src/build/assgn/build/lib/assgn/tonystarklogic.py -> /home/arnavb/erc_ws/src/install/assgn/lib/python3.12/site-packages/assgn
+[0.944s] byte-compiling /home/arnavb/erc_ws/src/install/assgn/lib/python3.12/site-packages/assgn/tonystarklogic.py to tonystarklogic.cpython-312.pyc
+[0.944s] running install_data
+[0.944s] copying assgn/tonystarklogic.py -> /home/arnavb/erc_ws/src/install/assgn/share/assgn/assgn
+[0.945s] running install_egg_info
+[0.958s] removing '/home/arnavb/erc_ws/src/install/assgn/lib/python3.12/site-packages/assgn-0.0.0-py3.12.egg-info' (and everything under it)
+[0.958s] Copying ../build/assgn/assgn.egg-info to /home/arnavb/erc_ws/src/install/assgn/lib/python3.12/site-packages/assgn-0.0.0-py3.12.egg-info
+[0.958s] running install_scripts
+[1.043s] Installing node script to /home/arnavb/erc_ws/src/install/assgn/lib/assgn
+[1.043s] writing list of installed files to '/home/arnavb/erc_ws/src/build/assgn/install.log'
+[1.063s] Invoked command in '/home/arnavb/erc_ws/src/assgn' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arnavb/erc_ws/src/build/assgn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arnavb/erc_ws/src/install/assgn/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/assgn build --build-base /home/arnavb/erc_ws/src/build/assgn/build install --record /home/arnavb/erc_ws/src/build/assgn/install.log --single-version-externally-managed install_data

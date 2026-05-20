@@ -1,0 +1,37 @@
+running egg_info
+creating build/assgn/assgn.egg-info
+writing build/assgn/assgn.egg-info/PKG-INFO
+writing dependency_links to build/assgn/assgn.egg-info/dependency_links.txt
+writing entry points to build/assgn/assgn.egg-info/entry_points.txt
+writing requirements to build/assgn/assgn.egg-info/requires.txt
+writing top-level names to build/assgn/assgn.egg-info/top_level.txt
+writing manifest file 'build/assgn/assgn.egg-info/SOURCES.txt'
+reading manifest file 'build/assgn/assgn.egg-info/SOURCES.txt'
+writing manifest file 'build/assgn/assgn.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arnavb/erc_ws/src/assgn/build/assgn/build
+creating /home/arnavb/erc_ws/src/assgn/build/assgn/build/lib
+creating /home/arnavb/erc_ws/src/assgn/build/assgn/build/lib/assgn
+copying assgn/__init__.py -> /home/arnavb/erc_ws/src/assgn/build/assgn/build/lib/assgn
+copying assgn/tonystarklogic.py -> /home/arnavb/erc_ws/src/assgn/build/assgn/build/lib/assgn
+running install
+running install_lib
+creating /home/arnavb/erc_ws/src/assgn/install/assgn/lib/python3.12/site-packages/assgn
+copying /home/arnavb/erc_ws/src/assgn/build/assgn/build/lib/assgn/__init__.py -> /home/arnavb/erc_ws/src/assgn/install/assgn/lib/python3.12/site-packages/assgn
+copying /home/arnavb/erc_ws/src/assgn/build/assgn/build/lib/assgn/tonystarklogic.py -> /home/arnavb/erc_ws/src/assgn/install/assgn/lib/python3.12/site-packages/assgn
+byte-compiling /home/arnavb/erc_ws/src/assgn/install/assgn/lib/python3.12/site-packages/assgn/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/arnavb/erc_ws/src/assgn/install/assgn/lib/python3.12/site-packages/assgn/tonystarklogic.py to tonystarklogic.cpython-312.pyc
+running install_data
+creating /home/arnavb/erc_ws/src/assgn/install/assgn/share/ament_index
+creating /home/arnavb/erc_ws/src/assgn/install/assgn/share/ament_index/resource_index
+creating /home/arnavb/erc_ws/src/assgn/install/assgn/share/ament_index/resource_index/packages
+copying resource/assgn -> /home/arnavb/erc_ws/src/assgn/install/assgn/share/ament_index/resource_index/packages
+copying package.xml -> /home/arnavb/erc_ws/src/assgn/install/assgn/share/assgn
+creating /home/arnavb/erc_ws/src/assgn/install/assgn/share/assgn/launch
+copying launch/Assgn.launch.py -> /home/arnavb/erc_ws/src/assgn/install/assgn/share/assgn/launch
+running install_egg_info
+Copying build/assgn/assgn.egg-info to /home/arnavb/erc_ws/src/assgn/install/assgn/lib/python3.12/site-packages/assgn-0.0.0-py3.12.egg-info
+running install_scripts
+Installing node script to /home/arnavb/erc_ws/src/assgn/install/assgn/lib/assgn
+writing list of installed files to '/home/arnavb/erc_ws/src/assgn/build/assgn/install.log'

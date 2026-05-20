@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/week1_tutorials/week1_tutorials.egg-info
+writing ../../build/week1_tutorials/week1_tutorials.egg-info/PKG-INFO
+writing dependency_links to ../../build/week1_tutorials/week1_tutorials.egg-info/dependency_links.txt
+writing entry points to ../../build/week1_tutorials/week1_tutorials.egg-info/entry_points.txt
+writing requirements to ../../build/week1_tutorials/week1_tutorials.egg-info/requires.txt
+writing top-level names to ../../build/week1_tutorials/week1_tutorials.egg-info/top_level.txt
+writing manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+reading manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+writing manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arnavb/erc_ws/build/week1_tutorials/build
+creating /home/arnavb/erc_ws/build/week1_tutorials/build/lib
+creating /home/arnavb/erc_ws/build/week1_tutorials/build/lib/week1_tutorials
+copying week1_tutorials/__init__.py -> /home/arnavb/erc_ws/build/week1_tutorials/build/lib/week1_tutorials
+copying week1_tutorials/listener.py -> /home/arnavb/erc_ws/build/week1_tutorials/build/lib/week1_tutorials
+copying week1_tutorials/talker.py -> /home/arnavb/erc_ws/build/week1_tutorials/build/lib/week1_tutorials
+running install
+running install_lib
+creating /home/arnavb/erc_ws/install/week1_tutorials/lib/python3.12/site-packages/week1_tutorials
+copying /home/arnavb/erc_ws/build/week1_tutorials/build/lib/week1_tutorials/__init__.py -> /home/arnavb/erc_ws/install/week1_tutorials/lib/python3.12/site-packages/week1_tutorials
+copying /home/arnavb/erc_ws/build/week1_tutorials/build/lib/week1_tutorials/listener.py -> /home/arnavb/erc_ws/install/week1_tutorials/lib/python3.12/site-packages/week1_tutorials
+copying /home/arnavb/erc_ws/build/week1_tutorials/build/lib/week1_tutorials/talker.py -> /home/arnavb/erc_ws/install/week1_tutorials/lib/python3.12/site-packages/week1_tutorials
+byte-compiling /home/arnavb/erc_ws/install/week1_tutorials/lib/python3.12/site-packages/week1_tutorials/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/arnavb/erc_ws/install/week1_tutorials/lib/python3.12/site-packages/week1_tutorials/listener.py to listener.cpython-312.pyc
+byte-compiling /home/arnavb/erc_ws/install/week1_tutorials/lib/python3.12/site-packages/week1_tutorials/talker.py to talker.cpython-312.pyc
+running install_data
+creating /home/arnavb/erc_ws/install/week1_tutorials/share/ament_index
+creating /home/arnavb/erc_ws/install/week1_tutorials/share/ament_index/resource_index
+creating /home/arnavb/erc_ws/install/week1_tutorials/share/ament_index/resource_index/packages
+copying resource/week1_tutorials -> /home/arnavb/erc_ws/install/week1_tutorials/share/ament_index/resource_index/packages
+copying package.xml -> /home/arnavb/erc_ws/install/week1_tutorials/share/week1_tutorials
+running install_egg_info
+Copying ../../build/week1_tutorials/week1_tutorials.egg-info to /home/arnavb/erc_ws/install/week1_tutorials/lib/python3.12/site-packages/week1_tutorials-0.0.0-py3.12.egg-info
+running install_scripts
+Installing publisher script to /home/arnavb/erc_ws/install/week1_tutorials/lib/week1_tutorials
+Installing subscriber script to /home/arnavb/erc_ws/install/week1_tutorials/lib/week1_tutorials
+writing list of installed files to '/home/arnavb/erc_ws/build/week1_tutorials/install.log'

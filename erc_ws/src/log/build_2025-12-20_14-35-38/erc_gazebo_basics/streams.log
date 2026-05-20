@@ -1,0 +1,5 @@
+[0.027s] Invoking command in '/home/arnavb/erc_ws/src/build/erc_gazebo_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/src/build/erc_gazebo_basics -- -j20 -l20
+[0.624s] [0mCMake Error: The source directory "/home/arnavb/erc_ws/src/erc_gazebo_basics" does not exist.
+[0.624s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.624s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.884s] Invoked command in '/home/arnavb/erc_ws/src/build/erc_gazebo_basics' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arnavb/erc_ws/install/week1_tutorials:/home/arnavb/erc_ws/install/stark_os:/home/arnavb/erc_ws/install/mogi_trajectory_server:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arnavb/erc_ws/src/build/erc_gazebo_basics -- -j20 -l20

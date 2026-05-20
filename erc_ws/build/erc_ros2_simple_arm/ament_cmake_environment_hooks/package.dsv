@@ -1,0 +1,4 @@
+source;share/erc_ros2_simple_arm/local_setup.bash
+source;share/erc_ros2_simple_arm/local_setup.dsv
+source;share/erc_ros2_simple_arm/local_setup.sh
+source;share/erc_ros2_simple_arm/local_setup.zsh
